@@ -1,0 +1,32 @@
+# Entornos Virtuales
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos del Sistema Operativo
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Datos Crudos y Datalakes Masivos (PyArrow/Parquet/GEO)
+results/soft/
+results/normalized/
+results/supp_files/
+results/split/
+*.parquet
+*.parquet.crc
+*.parquet.*
+
+# Compresiones y Suplementos Masivos
+*.tar
+*.gz
+*.zip
+*.soft
+*.txt
+
+# Excepciones que SÍ queremos trackear en /results/
+!results/*.csv
+!results/*.md
+!results/*.png

@@ -1,0 +1,993 @@
+GSE,Title,Samples,PDAT,Technology
+GSE316054,Targeting the ADAR1 p150 isoform triggers tumor growth inhibition and antitumor immunity to overcome immunotherapy resistance,52,2026/04/12,RNA-seq
+GSE324679,Characterize the effects of L. asaccharolyticus on autistic-like symptoms,51,2026/04/10,RNA-seq
+GSE319878,Interrogating the mechanistic link between neighborhood deprivation and colorectal cancer risk through gene expression analysis of normal colorectal biopsies,171,2026/04/10,RNA-seq
+GSE327367,Motif-directed chromatin repression by BCL11B shapes ectopic targeting and lineage commitment,76,2026/04/09,RNA-seq
+GSE327167,Single-cell RNA-seq profiling of pleural mesothelioma and comparator pleural specimens,113,2026/04/07,RNA-seq
+GSE327166,Bulk RNA-seq profiling of pleural mesothelioma and comparator pleural specimens,89,2026/04/07,RNA-seq
+GSE294051,SWI/SNF Remodeling Complexes Regulate 3D Chromatin Architecture by Antagonizing CTCF and Cohesin,188,2026/04/06,RNA-seq
+GSE292992,MDM2 degradation overcomes feedback regulation of p53 signaling in Merkel cell carcinoma,66,2026/04/02,RNA-seq
+GSE324062,RAS pathway activation drives clonal selection and monocytic differentiation in FLT3 and BCL2 inhibitor resistance,61,2026/04/01,RNA-seq
+GSE315928,Differential T cell clonal dynamics underlie outcomes to frontline chemoimmunotherapy in advanced gastric cancer [paired scRNA/TCR-seq],94,2026/04/01,RNA-seq
+GSE315516,Glioblastoma cells imitate neuronal excitability in humans,82,2026/04/01,RNA-seq
+GSE324977,Pathogenesis of Diffuse Large B-cell Lymphoma Proteogenotypes,53,2026/03/31,RNA-seq
+GSE295491,Single cell landscape of MBL/CLL transition [MBL_CLL_GEO_DataSet3],62,2026/03/31,RNA-seq
+GSE298507,Inhibition of BCL2 family proteins overcomes acquired resistance to standard of care BRAF and MEK inhibitors in a subset of BRAFV600E-mutant melanomas,58,2026/03/30,RNA-seq
+GSE292970,Spatially organizing million callus cells identify the core-network enable tomato shoot regeneration [RNA-Seq],54,2026/03/27,RNA-seq
+GSE292673,Directed evolution of a genetically encoded photocatalyst for temporally resolved proximity labeling of subcellular RNAs and proteins,76,2026/03/27,RNA-seq
+GSE285077,Chromatin-associated lncRNA-splicing factor condensates regulate hypoxia responsive RNA processing of genes pre-positioned near nuclear speckles [RNA-seq],76,2026/03/27,RNA-seq
+GSE281492,Molecular characterisation of the metastatic cell state in Breast Cancer,101,2026/03/27,RNA-seq
+GSE325526,Quantitative transcriptome and proteome maps of classical nonclinical species,2227,2026/03/25,RNA-seq
+GSE325522,Quantitative transcriptome and proteome maps of classical nonclinical species [b1],757,2026/03/25,RNA-seq
+GSE292858,RNA-Seq analysis of tumor and matched normal samples from colorectal cancer patients.,73,2026/03/25,RNA-seq
+GSE325123,The melanocytic transcriptomic state is independently associated with poor overall survival in long term follow up of patients with metastatic melanoma,272,2026/03/24,RNA-seq
+GSE296192,Hypoxic regulation of chromatin and gene transcription,98,2026/03/24,RNA-seq
+GSE325674,Leveraging experimental evolution to extract predictive collateral drug response signatures in Ewings Sarcoma,73,2026/03/23,RNA-seq
+GSE312235,Tumors Hijack Immune-Privileging Regulons via Distinct Cell Types to Confer T Cell Desertion and Immunotherapy Resistance Across Various Cancers,72,2026/03/21,RNA-seq
+GSE300628,HER2 heterogeneous breast cancer models reveal novel therapeutic targets and subclonal dynamics during evolution to resistance to HER2-targeted therapies,60,2026/03/20,RNA-seq
+GSE312789,Inhibition of BIRC5 and MCL-1 as a potential treatment strategy to overcome drug resistance in Mantle Cell Lymphoma,56,2026/03/18,RNA-seq
+GSE295563,Preclinical activity of brincidofovir in Peripheral T-cell and NK/T-cell Lymphoma [RNAseq_tumor],53,2026/03/18,RNA-seq
+GSE294601,CD371-Targeted CAR T-cells Secreting Interleukin-18 Exhibit Robust Expansion and Clearance of Refractory Acute Myeloid Leukemia,52,2026/03/18,RNA-seq
+GSE324454,Dissecting the cellular architecture of breast cancer brain metastases reveals prognostically distinct immune landscapes,128,2026/03/16,RNA-seq
+GSE295840,"Single-cell epigenetic landscape, microenvironment interactions, and gene regulatory modules of non-functioning pituitary adenomas",58,2026/03/16,RNA-seq
+GSE309350,Effects of HDAC gene knockdowns in human stem cell derived cardiomyocytes,61,2026/03/12,RNA-seq
+GSE264050,Parkinson's disease (PD) genetic asymmetry in neuronal nuclei from paired hemisphere samples of prefrontal cortex,87,2026/03/12,RNA-seq
+GSE322943,Dissecting the cellular architecture of breast cancer brain metastases reveals prognostically distinct immune landscapes [RNA-Seq],100,2026/03/10,RNA-seq
+GSE297035,Radiation triggers a clinically relevant profibrotic p53-mediated DNA damage response in an ex vivo human skin model,55,2026/03/09,RNA-seq
+GSE289982,m6A Methylation Suppresses anti-tumour immune responses in Colorectal Cancers by Inhibiting Double-stranded RNA accumulation from Alu Repeats,70,2026/03/09,RNA-seq
+GSE323973,Expression profiling by high throughput sequencing of breast cancer,158,2026/03/07,RNA-seq
+GSE323967,IRE1 drives a homeostatic response to reduced protein influx into the endoplasmic reticulum,108,2026/03/06,RNA-seq
+GSE319461,DNA methylation stochasticity is linked to transcriptional variability and identifies convergent epigenetic disruption across genetically-defined subtypes of AML,82,2026/03/06,RNA-seq
+GSE314566,A patient derived xenograft repository capturing clinical and molecular heterogeneity of large B-cell lymphoma,90,2026/03/05,RNA-seq
+GSE291604,Acute high-dose irradiation disrupts cell adhesion and Silk-Ovarioid formation in human primary ovarian cells,50,2026/03/04,RNA-seq
+GSE291245,Chronic ER Stress Induced of Cell-surface Chaperones as the Therapeutic Targets of CAR Cells in Acute Myeloid Leukemia,51,2026/03/04,RNA-seq
+GSE315341,Overcoming Menin inhibitor resistance in AML cells with combinations including BET proteins and dual BRG1/BRM inhibitor [RNA-seq],60,2026/03/03,RNA-seq
+GSE300453,Sequence-specific RNA recognition drives Restrictor-mediated termination of extragenic transcription,163,2026/03/03,RNA-seq
+GSE290264,Multiomic Study of Cutaneous T-Cell Lymphoma Reveals Single Cell Clonal Evolution in Progression and Therapy Resistance [bulk RNA-seq],68,2026/03/03,RNA-seq
+GSE281381,Alu repeat-containing RNA organizes actively transcribed genomic regions around nuclear speckle for co-transcriptional RNA processing,54,2026/03/03,RNA-seq
+GSE243299,3D Chromatin Remodeling in B-cell Development and B-cell Acute Lymphoblastic Leukemia,112,2026/03/03,RNA-seq
+GSE243276,3D Chromatin Remodeling in B-cell Development and B-cell Acute Lymphoblastic Leukemia [RNA-seq],50,2026/03/03,RNA-seq
+GSE205249,H3K27me3 spreading organizes canonical PRC1 chromatin architecture to regulate developmental programs,156,2026/03/02,RNA-seq
+GSE143584,Gene expression from laser capture microdissected epithelium and stroma during pancreatic carcinogenesis,366,2026/03/02,RNA-seq
+GSE317606,A Phase II Trial of Pembrolizumab plus Granulocyte Macrophage Colony Stimulating Factor in Advanced Biliary Cancer,180,2026/03/01,RNA-seq
+GSE317605,A Phase II Trial of Pembrolizumab plus Granulocyte Macrophage Colony Stimulating Factor in Advanced Biliary Cancer [CITE-Seq],168,2026/03/01,RNA-seq
+GSE246366,MCF-7 cells and ER+ PDX model treated with GDC-9545,96,2026/03/01,RNA-seq
+GSE225491,Cooperativity between H3-K27M and PDGFRA poses multiple therapeutic vulnerabilities in human iPSC-derived diffuse midline glioma avatars (RNA-Seq),54,2026/03/01,RNA-seq
+GSE320287,NF-κB transcriptionally perturbs p53 dynamics hampering DNA2repair.,56,2026/02/28,RNA-seq
+GSE304059,"Mechanism study of RBX1 promoting renal clear cell carcinoma invasion, immune suppression, and sunitinib resistance",614,2026/02/28,RNA-seq
+GSE305384,Inhibition of p300/CREBBP catalytic activity drives context-dependent transcriptional activation in AML,190,2026/02/27,RNA-seq
+GSE279594,BCR::ABL1-induced enhancer reprogramming uncovers hypersensitivity of Ph+B-ALL cells to enhancer-targeting drugs [RNA-Seq],52,2026/02/27,RNA-seq
+GSE306609,Sensitive CAR T cells redefine targetable CD70 expression in solid tumors [RNA-seq RCC],55,2026/02/26,RNA-seq
+GSE253587,Deconvolution of regulatory T cell heterogeneity identifies cycling precursors as conductors of immune escape during breast carcinoma progression,140,2026/02/26,RNA-seq
+GSE253572,Deconvolution of regulatory T cell heterogeneity identifies cycling precursors as conductors of immune escape during breast carcinoma progression,101,2026/02/26,RNA-seq
+GSE320155,scRNA‑seq of human intra‑hepatic CD4⁺ T cells reveals unique Treg transcriptional identities and two steady‑state tissue‑adaptation programs across healthy and HCC liver samples,60,2026/02/25,RNA-seq
+GSE315959,Dissecting FOXA1 pioneering function by acute pharmacological degradation.,51,2026/02/25,RNA-seq
+GSE307292,Multi-omics data analysis for the JGOG3025-TR1 ovarian clear cell carcinoma cohort.,189,2026/02/25,RNA-seq
+GSE300278,Sequencing of total RNA from human naevi and adjacent normal skin,64,2026/02/25,RNA-seq
+GSE279688,The role of LEDGF in transcription is exploited by HIV-1 to position integration,56,2026/02/25,RNA-seq
+GSE317136,EWSR1::FLI1 Suppresses Ribosome Biogenesis and Creates a Targetable Vulnerability in Ewing Sarcoma,66,2026/02/23,RNA-seq
+GSE314812,Divergent clonal evolution and tumor microenvironment remodeling shape gastric cancer peritoneal metastasis,55,2026/02/23,RNA-seq
+GSE297395,Extracellular vesicles and their RNA cargo facilitate bidirectional cross-kingdom communication between human and bacterial cells [RNA-Seq],105,2026/02/20,RNA-seq
+GSE259286,In vitro modeling of nutritional and mitochondrial-targeted therapies for osteosarcoma,98,2026/02/19,RNA-seq
+GSE319868,"A novel potent and selective GCN2 inhibitor, APL-4098, has anti-leukemic activity through dysregulation of mitochondrial function",64,2026/02/18,RNA-seq
+GSE310793,PRECISE: A prognostic thyroid follicular-cell derived gene signature for papillary thyroid carcinoma,109,2026/02/18,RNA-seq
+GSE256101,Mechanisms linking cytoplasmic decay of translation-defective mRNA to transcriptional adaptation,53,2026/02/18,RNA-seq
+GSE294344,DEAH-BOX HELICASE 8 IS A REGULATOR OF HEAT SHOCK FACTOR 1,76,2026/02/17,RNA-seq
+GSE293444,STAT1 and STAT3 Signaling in Ovarian Cancer: Prognostic Biomarkers and Therapeutic Targets [RNA-seq],54,2026/02/16,RNA-seq
+GSE312881,Time‑resolved multi-omic analysis of paclitaxel exposure in human iPSC‑derived sensory neurons unveils mechanisms of chemotherapy‑induced peripheral neuropathy,71,2026/02/15,RNA-seq
+GSE268991,Transcriptional profile and TCR sequences from tumor and adjacent normal human colorectal samples,56,2026/02/15,RNA-seq
+GSE236530,Enzyme-mediated methylation and alkynylation enables transcriptome-wide identification of pseudouridine modifications,50,2026/02/15,RNA-seq
+GSE319496,"Association between blood parameters, whole-blood transcriptomic profiles, and immune-related adverse events in metastatic renal cell carcinoma during nivolumab plus ipilimumab",51,2026/02/14,RNA-seq
+GSE307568,Patient-derived organoid – immune cell co-culture platform for therapeutics discovery in high-grade endometrial cancer,189,2026/02/14,RNA-seq
+GSE317512,"Age-stratified transcriptomic profiling reveals biologically distinct molecular phenotypes across pediatric, adolescent, and adult osteosarcoma",70,2026/02/11,RNA-seq
+GSE285392,Incorporating histone H2B variants into chromatin modifies chromatin accessibility to induce the epithelial-to-mesenchymal transition in breast cancer,74,2026/02/11,RNA-seq
+GSE155631,Oncogenic mechanisms of DIS3 mutations in Multiple Myeloma,62,2026/02/11,RNA-seq
+GSE301741,Single cell analysis highlights the significance of malignant cell IFN/MHC-II for immunotherapy response in head and neck squamous cell carcinoma,58,2026/02/10,RNA-seq
+GSE261054,Bypass of blocking lesions by RNAPII reveals a novel stress induced by DNA damage [RNA-seq],62,2026/02/10,RNA-seq
+GSE318878,Micro-RNA networks in T-cell prolymphocytic leukemia reflect T-cell activation and shape DNA damage response and survival pathways,56,2026/02/09,RNA-seq
+GSE315219,PHIP suppresses NuRD to enable the growth of SWI/SNF-mutant cancers,174,2026/02/09,RNA-seq
+GSE292272,EPB41L4A-AS1 long noncoding RNA acts in both cis- and trans-acting transcriptional regulation and controls nucleolar biology,82,2026/02/09,RNA-seq
+GSE294705,High-frequency recurrence index for predicting multiple recurrences in non-muscle-invasive bladder cancer (Validation cohort),94,2026/02/07,RNA-seq
+GSE318308,Phase II proof-of-concept study of durvalumab and cediranib with and without olaparib in recurrent ovarian cancer,75,2026/02/06,RNA-seq
+GSE314342,Genome-scale perturb-seq in primary human CD4+ T cells reveals genes regulating T cell programs and human immune traits.,121,2026/02/06,RNA-seq
+GSE291147,Mapping convergent regulators of melanoma drug resistance by PerturbFate,320,2026/02/06,RNA-seq
+GSE289256,Multi-omic landscape of squamous cell lung cancer,116,2026/02/06,RNA-seq
+GSE281781,MYC binding to nascent RNA suppresses innate immune signaling by R-loop-derived RNA-DNA hybrids,186,2026/02/06,RNA-seq
+GSE308745,The Cd4+ T cell population Partners with Tpex CD8 T cells to mediate Antitumor Immunity in the Tumor Microenvironment.[PB cohort2],87,2026/02/05,RNA-seq
+GSE318420,Immunosuppressive monocytes are enriched in hepatocellular carcinoma patients with liver dysfunction in a phase II trial of combination sorafenib and nivolumab,210,2026/02/04,RNA-seq
+GSE318268,CMS subtypes correlate with complete response in trial of neoadjuvant Galunisertib plus chemoradiation in rectal cancer,73,2026/02/04,RNA-seq
+GSE318135,β-Lapachone Antagonizes Ubiquitin-Specific Protease 18 Activity to Elicit Anti-Neoplastic Effects,54,2026/02/04,RNA-seq
+GSE314660,Identifying expression and DNA methylation biomarkers for lung adenocarcinoma risk in East Asia [RNA-seq],61,2026/02/04,RNA-seq
+GSE250394,TFIIB,110,2026/02/04,RNA-seq
+GSE312063,Characterization of esophageal squamous cell carcinoma cell lines sensitivity to Palbociclib,88,2026/02/02,RNA-seq
+GSE288566,Cup-like nuclei is a hallmark of IGH:DUX4 acute lymphoblastic leukemia and reveals cytoplasmic mitochondria accumulation,57,2026/02/02,RNA-seq
+GSE287531,The effects of ATP and CD39 inhibition in monocyte-derived dendritic cells.,54,2026/02/02,RNA-seq
+GSE318164,Molecular Heterogeneity and Immune Infiltration Drive Clinical Outcomes in Upper Tract Urothelial Carcinoma,113,2026/02/01,RNA-seq
+GSE289582,"Baseline tumor features and peripheral blood immune dynamics that underlie efficacy in MSS metastatic colorectal cancer treated with regorafenib, ipilimumab, and nivolumab [Blood]",115,2026/02/01,RNA-seq
+GSE315130,"Differential mRNA expression analysis of multiple human and mouse pancreatic cancer cells and tumors after DMSO, tazemetostat, RMC-6236, or the combination treatment.",67,2026/01/31,RNA-seq
+GSE317901,"Unraveling cetuximab response in head and neck cancer with APHRODYTHE, a multi-omics patient-derived xenograft platform",114,2026/01/30,RNA-seq
+GSE298020,PU.1-Activated Genomic Regions Define Low-risk MDS Subsets Characterized by Immune Dysregulation and Disease Progression.,493,2026/01/29,RNA-seq
+GSE298019,PU.1-Activated Genomic Regions Define Low-risk MDS Subsets Characterized by Immune Dysregulation and Disease Progression [RNA-seq],357,2026/01/29,RNA-seq
+GSE303300,Neoadjuvant Immune Checkpoint Blockade Before Chemoradiation for Patients with FIGO Stage IB3–IVA Cervical Squamous Carcinoma: GINECO Window-Of-Opportunity COLIBRI Study,96,2026/01/28,RNA-seq
+GSE311112,Single-cell RNA-seq analysis reveals distinct tumor and immunosuppressive T-cell phenotypes in CLL patients treated with ibrutinib,105,2026/01/27,RNA-seq
+GSE273528,Vascular invasion-associated gene expression is detectable in pre-surgical biopsies of stage I lung adenocarcinoma,221,2026/01/26,RNA-seq
+GSE273377,Vascular invasion-associated gene expression is detectable in pre-surgical biopsies of stage I lung adenocarcinoma [bulkRNA-seq],169,2026/01/26,RNA-seq
+GSE255517,Rational design of immune gene therapy combinations via in vivo CRISPR activation screening of tumor microenvironment modulators,57,2026/01/23,RNA-seq
+GSE298483,Induction of a renal developmental cell state is associated with chemotherapy resistance in favorable-histology Wilms tumor,62,2026/01/21,RNA-seq
+GSE255626,Next generation sequencing from primary glioblastoma patient tissues (Total RNA-seq),109,2026/01/21,RNA-seq
+GSE310173,Embryonic stem cell factors DPPA2/4 amplify active H3K4me3-H2AK119ub chromatin domains in non-small cell lung cancer,300,2026/01/20,RNA-seq
+GSE310170,Embryonic stem cell factors DPPA2/4 amplify active H3K4me3-H2AK119ub chromatin domains in non-small cell lung cancer (RNA-seq),93,2026/01/20,RNA-seq
+GSE272002,"TAS1440, an LSD1 Inhibitor, Disrupts the INSM1-LSD1 Complex to Activate Tumor-Suppressive Pathways via Transcriptional Reprogramming in Neuroendocrine SCLC [RNA-seq]",324,2026/01/20,RNA-seq
+GSE290089,"Evolutionarily divergent transcriptomic programs in ovarian folliculogenesis across mice, monkeys and humans",660,2026/01/19,RNA-seq
+GSE290074,"Evolutionarily divergent transcriptomic programs in ovarian folliculogenesis across mice, monkeys and humans [Human]",297,2026/01/19,RNA-seq
+GSE288344,Targeted citrullination enables p53 binding to non-canonical sites,258,2026/01/17,RNA-seq
+GSE161369,Pancreatic Cancer Datasets,237,2026/01/16,RNA-seq
+GSE161368,TF overexpression assay in PDA cell lines (Bulk RNA-Seq),69,2026/01/16,RNA-seq
+GSE274640,MYOD1L122R induces cancer stem cell pathways to impart chemotherapy and radiation-resistance in aggressive rhabdomyosarcoma.,80,2026/01/14,RNA-seq
+GSE315878,Lack of synergy between AR targeted therapies and PARP inhibition in homologous recombination- proficient prostate cancer,70,2026/01/13,RNA-seq
+GSE202763,Receptor Tyrosine Kinases phosphorylate RNA polymerase II at signal-responsive genes,100,2026/01/13,RNA-seq
+GSE316098,Spatial Transcriptomic Landscape of Invasion Patterns in Human Papillomavirus-Associated Endocervical Adenocarcinoma,186,2026/01/12,RNA-seq
+GSE280480,Gene expression profiling reveals two overarching types of anaplastic large cell lymphoma with distinct targetable biology: an LLMPP study,393,2026/01/09,RNA-seq
+GSE268636,Androgen receptor splice variant expression and prostate cancer recurrence after salvage therapy,56,2026/01/07,RNA-seq
+GSE304327,Transcriptomic analysis of BPA alternative chemicals in primary human mammary epithelial cells,666,2026/01/06,RNA-seq
+GSE281556,Lysosomal sequestration of PARP inhibitors drives heterogeneous accumulation in ovarian cancer to increase efficacy,204,2026/01/06,RNA-seq
+GSE310729,Age-independent and targetable transcription factor networks regulate CD8+ T cell senescence in aging humans,83,2026/01/05,RNA-seq
+GSE281517,Lysosomal sequestration of PARP inhibitors drives heterogeneous accumulation in ovarian cancer to increase efficacy [RNA-seq],72,2026/01/05,RNA-seq
+GSE299759,An integrated clinical genomic and transcriptomic subgrouping of central chondrosarcoma,54,2026/01/04,RNA-seq
+GSE306117,Distinct genomic and immunologic tumor evolution in germline TP53-driven breast cancers,74,2026/01/01,RNA-seq
+GSE301596,Uncovering glioblastoma origin cells: Isolation and characterization from the subventricular zone,211,2026/01/01,RNA-seq
+GSE295961,Genomic profiling of active vitamin D colonic responses in African- and European-Americans identifies an ancestry-related regulatory variant of POLB,157,2026/01/01,RNA-seq
+GSE288910,RNA structure directs RNA partitioning and is actively disrupted inside stress granules to enable cellular recovery,126,2025/12/31,RNA-seq
+GSE279147,The selective RRM2 inhibitor TAS1553 is synergistic with multiple CHK1 inhibitors in neuroblastoma,70,2025/12/31,RNA-seq
+GSE272757,Driver mutation landscape of acute myeloid leukemia provides insights for neoantigen-based immunotherapy [RNA-seq],147,2025/12/31,RNA-seq
+GSE162738,Immune gene signatures in oropharyngeal cancers are associated with inverse prognosis by HPV-status,51,2025/12/31,RNA-seq
+GSE310119,"A SWI/SNF -specific Ig-like domain, SWIFT, is a transcription factor binding platform",231,2025/12/30,RNA-seq
+GSE309697,Generation of a Comprehensive Epigenomic Atlas in Clear Cell Renal Cell Carcinoma Informs Kidney Cancer Progression and Heritability,265,2025/12/30,RNA-seq
+GSE248589,Podocyte,72,2025/12/30,RNA-seq
+GSE314698,Pancreatic volume and immunological biomarkers predict checkpoint inhibitor-associated autoimmune diabetes in humans.,83,2025/12/26,RNA-seq
+GSE296159,Deep targeted sequencing reveals genomic differences between primary and recurrent high-grade serous ovarian cancer,108,2025/12/23,RNA-seq
+GSE303377,Colorectal Cancer cohort from the Geneva Cancer Registry,384,2025/12/20,RNA-seq
+GSE302999,"Chronic NK cell activation results in a dysfunctional, tissue resident-like state mediated by KLF2 deficiency",59,2025/12/20,RNA-seq
+GSE311789,DeCAF redefines fibroblast states uncovering multidimensional tumor-stroma relationships driving clinical tumor progression and immunotherapy response,142,2025/12/18,RNA-seq
+GSE310957,DeCAF redefines fibroblast states uncovering multidimensional tumor-stroma relationships driving clinical tumor progression and immunotherapy response [RNA-Seq],129,2025/12/18,RNA-seq
+GSE309802,OR7A10 GPCR engineering boosts CAR-NK therapy against solid tumors,78,2025/12/17,RNA-seq
+GSE296213,LINE-1 locus transcription nucleates oncogenic chromatin architecture,101,2025/12/17,RNA-seq
+GSE296212,LINE-1 locus transcription nucleates oncogenic chromatin architecture [RNA-Seq],80,2025/12/17,RNA-seq
+GSE280902,Identification of neoadjuvant chemotherapy response transcriptomic meta-signatures in invasive breast cancer in Latino patients,58,2025/12/17,RNA-seq
+GSE313117,Cross-platform comparison of gene expression-based cancer molecular subtyping reveals discrepancies with exome capture methods,158,2025/12/15,RNA-seq
+GSE290623,Opposing functions of distinct regulatory T cell subsets in colorectal cancer,142,2025/12/15,RNA-seq
+GSE290622,Opposing functions of distinct regulatory T cell subsets in colorectal cancer,102,2025/12/15,RNA-seq
+GSE280899,PUF60-Mediated Splicing Is a Key Driver of Triple Negative Breast Cancer,112,2025/12/15,RNA-seq
+GSE255765,MCF-7 ESR1 drug response bulk RNA,64,2025/12/15,RNA-seq
+GSE242447,METTL3-based epitranscriptomic editing screening identifies functional m6A sites in cancers,60,2025/12/15,RNA-seq
+GSE237332,Transcriptional profiling of liver biopsies of precancerous viral hepatitis patients,106,2025/12/15,RNA-seq
+GSE253121,NELF prevents widespread transcriptional readthrough into DNA replication zones of cancer cells,70,2025/12/13,RNA-seq
+GSE313642,Immunosuppressive monocytes are enriched in hepatocellular carcinoma patients with liver dysfunction in a phase II trial of combination sorafenib and nivolumab [CITE-Seq],194,2025/12/12,RNA-seq
+GSE312144,Molecular indicators of hepatocellular carcinoma resistance to Y-90 microspheres revealed through high-throughput screening of cell lines and transcriptomics,51,2025/12/12,RNA-seq
+GSE307931,Circulating transcriptome analysis finds gene signatures and immune cell activation and abundance predict response to immunotherapy in bladder cancer,164,2025/12/12,RNA-seq
+GSE302122,CX-5461 and Doxorubicin activate a shared DNA damage–associated transcriptional response in human cardiomyocytes,144,2025/12/11,RNA-seq
+GSE313098,Time-series RNA-seq analysis reveals dynamic transcriptional responses and crosstalk in chronic lymphocytic leukaemia (CLL) autologous and monoculture in vitro models,60,2025/12/10,RNA-seq
+GSE312695,Gene expression analysis of non-clear-cell renal cell carcinoma and clear-cell renal cell carcinoma kidney cancers,140,2025/12/10,RNA-seq
+GSE302752,"Safety, feasibility and pharmacodynamic activity of intratumoral injections of the agonist anti-CD137 (4-1BB) mAb urelumab in combination with nivolumab",76,2025/12/10,RNA-seq
+GSE300150,Single-cell multidimensional profiling of tumor cell heterogeneity in supratentorial ependymomas [scRNA-Seq],55,2025/12/09,RNA-seq
+GSE260452,Single-cell multidimensional profiling of tumor cell heterogeneity in supratentorial ependymomas,111,2025/12/09,RNA-seq
+GSE312030,Combined inhibition of HRAS and MEK induces tumor regression and restores myogenic differentiation in HRAS-mutant rhabdomyosarcoma,159,2025/12/08,RNA-seq
+GSE312368,A targetable developmental program co-regulates angiogenesis and immune evasion.,77,2025/12/04,RNA-seq
+GSE308020,Integrative multi-omics deciphers the potential mechanism and microbial biomarkers for lymph node metastasis in colorectal cancer,66,2025/12/04,RNA-seq
+GSE278695,Screening and Modeling of LUAD-Associated Predictive and Prognostic Genes Based on Multi-Omics Data,50,2025/12/04,RNA-seq
+GSE310388,In situ multi-modal characterization of pancreatic cancer reveals tumor cell identity as a defining factor of the surrounding microenvironment. [RNA-Seq],171,2025/12/03,RNA-seq
+GSE310353,In situ multi-modal characterization of pancreatic cancer reveals tumor cell identity as a defining factor of the surrounding microenvironment,116,2025/12/03,RNA-seq
+GSE270680,A spatially resolved atlas of gastric cancer characterises a lymphocyte aggregated region [scRNA-seq],77,2025/12/03,RNA-seq
+GSE311851,LSD1 Performs Demethylase-Independent and Context-Specific Roles in Ewing Sarcoma,114,2025/12/02,RNA-seq
+GSE309004,Molecular determinants of neoadjuvant chemotherapy resistance in breast cancer: An analysis of gene expression and tumor microenvironment,54,2025/12/02,RNA-seq
+GSE237331,Transcriptional profiling of liver biopsies of precancerous viral hepatitis patients: Validation cohort,50,2025/12/02,RNA-seq
+GSE237330,Transcriptional profiling of liver biopsies of precancerous viral hepatitis patients: Training cohort,56,2025/12/02,RNA-seq
+GSE296270,The Histone Methyltransferase KMT2D is a Critical Mediator of Lineage Plasticity and Therapeutic Response in Castration Resistant Prostate Cancer,118,2025/12/01,RNA-seq
+GSE311827,AP-1 Mediates Cellular Adaptation and Memory Formation [Bulk RNA-seq],192,2025/11/28,RNA-seq
+GSE310423,Determinants of long-term response to patritumab deruxtecan (HER3-DXd) in breast cancer patient-derived xenografts.,167,2025/11/28,RNA-seq
+GSE307574,Determinants of long-term response to patritumab deruxtecan (HER3-DXd) in breast cancer patient-derived xenografts,58,2025/11/28,RNA-seq
+GSE270116,Lymphotoxin alpha eradicates acute myeloid leukemia and simultaneously promotes healthy hematopoiesis in mice,60,2025/11/26,RNA-seq
+GSE221608,"Transcriptome sequencing of normal intestinal mucosal tissues, paired primary CRC tissues and liver metastases lesions in participants of CRC",52,2025/11/26,RNA-seq
+GSE296748,Dp16 liver transcriptome,78,2025/11/25,RNA-seq
+GSE260456,DOT1L provides transcriptional memory through PRC1.1 antagonism [RNA-seq],180,2025/11/23,RNA-seq
+GSE303648,Rb1 deficiency induces synthetic lethality with ATR and PKMYT1 co-inhibition in breast cancer,57,2025/11/21,RNA-seq
+GSE282471,Genomic and transcriptomic analysis of Japanese melanoma reveals candidate biomarkers for immune checkpoint inhibitor responders.,111,2025/11/21,RNA-seq
+GSE309795,Multiscale profiling of tyrosine kinase inhibitor cardiotoxicity reveals mechanosensitive ion channel PIEZO1 as cardioprotective [bulk RNA-seq],72,2025/11/19,RNA-seq
+GSE303870,A tumor-associated macrophage-targeted immunocytokine leveraging T and NK cell synergy for potent cancer immunotherapy,223,2025/11/19,RNA-seq
+GSE297742,Bulk RNA-seq of primary tumor biopsy samples from prostate adenocarcinoma patients,234,2025/11/19,RNA-seq
+GSE282705,"BLU-222, a Potent CDK2 Inhibitor, Synergizes with CDK4/6 Inhibitors to Overcome Drug Resistance in HR–Positive and Triple-Negative Breast Cancer by Inducing p21 and p27",90,2025/11/18,RNA-seq
+GSE266298,Epigenetic changes by EZH2 inhibition increase translocations in B cells with high AID activity or DNA repair deficiency,130,2025/11/18,RNA-seq
+GSE304029,BRD2 Bromodomain-Mediated Regulation of Cell State Plasticity Modulates Therapy Response in Glioblastoma,56,2025/11/17,RNA-seq
+GSE225951,A dual role of EZH2 in regulating A-to-I RNA editing and mRNA stability through ADAR1,75,2025/11/15,RNA-seq
+GSE290435,Environmentally Relevant Lead Exposure Impacts Gene Expression in SH-SY5Y Cells Throughout Neuronal Differentiation,60,2025/11/14,RNA-seq
+GSE286888,Comparative gene expression profiling of high-grade serous ovarian cancer cells exposed to cisplatin or CX-5461,60,2025/11/14,RNA-seq
+GSE293331,Allelic topological centering by transcription factors drives oncogenic multi-enhancer transcriptional regulation [RNA-seq],54,2025/11/13,RNA-seq
+GSE287918,BPTF regulstes androgen receptor activity by enhancing chromatin accessibility and stabilizing the AR-FOXA1 interaction,67,2025/11/13,RNA-seq
+GSE284479,Altered thymopoiesis in thymoma is associated with defects in negative selection machinery and decreased Treg abundance,53,2025/11/13,RNA-seq
+GSE294391,Effect of the poly-ICLC vaccine adjuvant on prostate cancer patients’ PBMC,70,2026/04/10,Microarray
+GSE293981,The molecular architecture of incidental meningiomas,260,2026/04/09,Microarray
+GSE293815,Targeted gene expression panel for incidental meningiomas,129,2026/04/09,Microarray
+GSE324677,Parity-conditioned Hedgehog/VDR-linked NanoString profiling of histologically normal human breast tissue,148,2026/03/17,Microarray
+GSE324676,Parity-conditioned Hedgehog/VDR-linked NanoString profiling of histologically normal human breast tissue (IO360),74,2026/03/17,Microarray
+GSE324675,Parity-conditioned Hedgehog/VDR-linked NanoString profiling of histologically normal human breast tissue (BC360),74,2026/03/17,Microarray
+GSE320321,Baseline NanoString IO360/BC360 expression in longitudinal midlife benign breast biopsies (ARLI pace cohort),162,2026/02/28,Microarray
+GSE320268,Expression analysis of baseline tissue samples from KRAS G12C–mutant patients and longitudinal blood monitoring during treatment with KRAS G12C inhibitors,98,2026/02/28,Microarray
+GSE320266,Expression analysis in plasma sample from KRAS G12C–mutant patients monitoring during treatment with KRAS G12C inhibitors,62,2026/02/28,Microarray
+GSE290002,Confirmation of CDK8/19 inhibitor selectivity and activity in colorectal cancer [in vitro],54,2026/02/20,Microarray
+GSE319500,Predictability of progression free survival in ovarian cancer,70,2026/02/17,Microarray
+GSE283593,DEAH-BOX HELICASE 8 IS A REGULATOR OF HEAT SHOCK FACTOR 1 [DHX8-HSF1 KD],77,2026/02/17,Microarray
+GSE317455,Transcriptional pathways of localized early prostate cancer,102,2026/01/31,Microarray
+GSE317424,Transcriptional PanCancer pathways of localized early prostate cancer,51,2026/01/31,Microarray
+GSE317416,Transcriptional Cancer Immune pathways of localized early prostate cancer,51,2026/01/31,Microarray
+GSE297461,AML PATIENTS WITH WILDTYPE TP53 AND DEFECTIVE TP53-MEDIATED APOPTOSIS HAVE A DISMAL SURVIVAL,60,2026/01/07,Microarray
+GSE237290,Immune gene expression profiling to inform individualized treatment of early-stage basal-like breast cancer,57,2025/12/31,Microarray
+GSE313289,Understanding tumor heterogeneity in HNSCC by gene-expression,100,2025/12/15,Microarray
+GSE216724,Colon Cancer Patient-Derived Spheroids and their Stem Cell-Intrinsic mRNA Expression Yield Novel Prognostic Signatures,64,2025/10/27,Microarray
+GSE236055,Colonic mucosal gene expression profile associated with neoplastic progression in longstanding ulcerative colitis,143,2025/10/20,Microarray
+GSE309652,Clinically relevant metabolic subtypes of lung cancer for immunotherapy,72,2025/09/30,Microarray
+GSE303203,Identification of a shared drug-tolerant persister program in triple-negactive breast cancer across treatments and patients [array],59,2025/09/22,Microarray
+GSE280418,A novel lymphoma-associated macrophage interaction signature (LAMIS) provides robust risk prognostication in diffuse large B-cell lymphoma clinical trial cohorts of the DSHNHL,330,2025/09/06,Microarray
+GSE302555,Gene expression in muscle invasive and non-muscle invasive bladder cancer cell lines exposed to hypoxia,72,2025/09/03,Microarray
+GSE302048,CDKN2A deletion remodels immune infiltrate in Diffuse Pleural Mesothelioma,82,2025/09/03,Microarray
+GSE224644,Clinical testing of transcriptome-wide expression classifiers in high-risk localized and metastatic prostate cancer starting androgen deprivation therapy in the STAMPEDE abiraterone and docetaxel Phase 3 trials,1531,2025/08/27,Microarray
+GSE129274,Imaging Studies of Local Responses of Prostate Cancer to Radiation Therapy,60,2025/08/25,Microarray
+GSE211484,A novel t(5;7)(q31;q21/CDK6::IL3 in immature T-cell acute lymphoblastic leukemia with IL3 overexpression and reactive eosinophilia,98,2025/08/11,Microarray
+GSE211476,A novel t(5;7)(q31;q21/CDK6::IL3 in immature T-cell acute lymphoblastic leukemia with IL3 overexpression and reactive eosinophilia [WTE],96,2025/08/11,Microarray
+GSE289059,Tumor immune microenvironment-associated prognostic and mifamurtide-response gene signatures for localized osteosarcoma: a correlative study of the ISG/OS2 trial,62,2025/07/23,Microarray
+GSE271719,Transcriptome profiling of colorectal cancer and paired normal tissues using Affymetrix HGU133-X3P arrays,98,2025/07/21,Microarray
+GSE277607,NanoString BC360 gene signatures in luminal breast cancer,220,2025/07/17,Microarray
+GSE277272,Comprehensive profiling of RNAs enriched in small extracellular vesicles of colorectal cancer patients,150,2025/07/07,Microarray
+GSE298296,Impact of molecular androgen and estrogen response scores on outcomes following neoadjuvant pembrolizumab in muscle-invasive bladder cancer,102,2025/06/04,Microarray
+GSE267846,Plasma fatty acids depletion: a metabolic signature related to colon cancer,107,2025/05/28,Microarray
+GSE261107,NanoCMSer: A Clinically Applicable Stratification Tool for Stratification of Colorectal Cancer Samples [III],113,2025/05/22,Microarray
+GSE261104,NanoCMSer: A Clinically Applicable Stratification Tool for Stratification of Colorectal Cancer Samples [II],74,2025/05/22,Microarray
+GSE173154,Transcriptome regulated by ENG and MMP14 in Ewing sarcoma cells,53,2025/05/01,Microarray
+GSE149959,DNA methylome and transcriptome landscapes of cancer-associated fibroblasts reveal a smoking-associated malignancy index,130,2025/05/01,Microarray
+GSE149955,DNA methylome and transcriptome landscapes of cancer-associated fibroblasts reveal a smoking-associated malignancy index,50,2025/05/01,Microarray
+GSE265870,Immune-based changes in gene expression determine clinical efficacy of CDK4/6i in metastatic breast cancer,63,2025/04/25,Microarray
+GSE273595,Gene-expression profiling of a polyostotic-DLBCL and primary bone-DLBCL cohort compared to a nodal DLBCL GCB.,93,2025/04/22,Microarray
+GSE282443,Topical TLR7 agonist and radiotherapy in patients with metastatic breast cancer,84,2025/04/16,Microarray
+GSE279135,Bone marrow CD34+/lin- cells of patients with Chronic Phase- Chronic Myeloid Leukemia (CP-CML) after 12 months of nilotinib treatment exhibit a different expression signature compared to the diagnosis and the same cells from healthy subjects,168,2025/04/02,Microarray
+GSE146996,Genome-wide mRNA profile of human gastric normal and gastric cancer tissues,65,2025/04/01,Microarray
+GSE261554,Targeting Vdac2 overcomes immunotherapy resistance by inducing tumor cell death and inflammation,180,2025/03/19,Microarray
+GSE198328,Gene expression and variation in Bladder Carcinoma,126,2025/03/07,Microarray
+GSE198303,Bladder Carcinoma gene expression data,63,2025/03/07,Microarray
+GSE283367,BMI-Associated Gene Expression Profiles in Adipose Tissue of Japanese Individuals,176,2025/03/03,Microarray
+GSE126935,Tumor-reactive T cells in HNSCC patients are directed against cancer-associated fibroblasts,50,2025/02/14,Microarray
+GSE15284,The FISHGASTRO study: gene expression profiles in human colonic biopsies following a 6 month fish intervention,56,2025/02/01,Microarray
+GSE245132,Gene expression profiling of HER2-positive breast cancer samples collected at baseline and at surgery from patients who did not achieve pathological complete response after trastuzumab-based neoadjuvant biochemotherapy.,64,2025/01/29,Microarray
+GSE213609,Proteogenomic profiling of thymic and pulmonary neuroendocrine neoplasia.,53,2024/12/31,Microarray
+GSE239832,Aberrant BCAT1 expression augments mTOR activity and accelerates disease progression in Chronic Lymphocytic leukemia,117,2024/12/23,Microarray
+GSE252168,Robust messenger RNA (mRNA) markers in blood for lung cancer diagnosis,303,2024/12/10,Microarray
+GSE190042,Integration between MCL1 gene co-expression module and the Revised International Staging System enables precise prognostication and prediction of response to proteasome inhibitor-based therapy in individual multiple myeloma,93,2024/12/01,Microarray
+GSE276561,Identifying bone marrow microenvironmental alterations in multiple myeloma and its precursor conditions using whole bone marrow biopsies,997,2024/11/22,Microarray
+GSE254875,Multidimensional analysis of patient-matched primary and recurrent glioblastoma identifies microglial FCGR1A (CD64) and other FCGRs as contributors of tumor recurrence,147,2024/11/18,Microarray
+GSE280643,Differential KEAP1/NRF2-mediated signaling widens the therapeutic window of redox-targeting drugs in SCLC therapy,74,2024/11/11,Microarray
+GSE218438,Structure Activity Relationship Read Across and Transcriptomics for Branched Carboxylic Acids,636,2024/11/01,Microarray
+GSE244647,NSCLC and HNSCC patients,176,2024/10/04,Microarray
+GSE244645,Expression data from platelets from early NSCLC and HNSCC patients in tumour presence and tumor free samples,69,2024/10/04,Microarray
+GSE244631,Identification of tumor-agnostic biomarkers for predicting prostate cancer progression and biochemical recurrence,51,2024/10/03,Microarray
+GSE235574,Comprehensive profiling and targeting of BCL-2 family members in nasopharyngeal carcinoma,69,2024/10/01,Microarray
+GSE249568,Gene expression from paired biopsies from a patient with METex14 skiping non-small cell lung cancer before and after treatment with neoadjuvant tepotinib (42 days),94,2024/09/27,Microarray
+GSE274220,Tumor immune microenvironmental characteristics in Human Epidermal Growth Factor-2 (HER2) positive esophageal adenocarcinoma: a comparative analysis and biomarker study,84,2024/09/01,Microarray
+GSE203024,Gene Expression Data from Human Peripheral Blood,2845,2024/08/31,Microarray
+GSE248619,Prognostic implication of blood immune cell composition in Metastatic Castration-Resistant Prostate Cancer (mCRPC),100,2024/08/02,Microarray
+GSE252029,Guselkumab reduces disease- and mechanism-related biomarkers more than adalimumab in patients with psoriasis: a VOYAGE 1 substudy,181,2024/07/31,Microarray
+GSE214094,Epigenetic activation of SOX11 is associated with recurrence and progression of DCIS to invasive breast cancer,54,2024/07/17,Microarray
+GSE199633,"Gene expression data for 637 human primary breast tumors with recurrence, ER/PR/HER2 status, and overall survival",637,2024/06/07,Microarray
+GSE21359,Association of CXCL14 in the Human Airway Epithelium with Chronic Obstructive Lung Disease and Lung Cancer,135,2024/06/05,Microarray
+GSE226231,Capturing totipotency in human cells through spliceosomal repression,112,2024/05/30,Microarray
+GSE244123,Olfactory neuroblastoma mimics molecular subtypes and lineage trajectories of small cell lung cancer,103,2024/05/15,Microarray
+GSE244117,Olfactory neuroblastoma mimics molecular subtypes and lineage trajectories of small cell lung cancer [Spatial transcriptomics on de-identified human ONB samples],96,2024/05/15,Microarray
+GSE198432,An epigenetic gene signature underlies phenotype switching in early stage melanomas.,300,2024/05/08,Microarray
+GSE198431,An epigenetic gene signature underlies phenotype switching in early stage melanomas [Nanostring_sample3],82,2024/05/08,Microarray
+GSE198430,An epigenetic gene signature underlies phenotype switching in early stage melanomas [nanotstring_sample2],124,2024/05/08,Microarray
+GSE243973,Circulating monocyte counts coupled with a 4-gene signature at leukapheresis predict survival of lymphoma patients treated with CAR T,85,2024/04/24,Microarray
+GSE230151,Cancer treatment with radiation-chemotherapy rapidly induces molecular pathways for both resistance and new therapeutic targets,74,2024/04/10,Microarray
+GSE241101,Gene expression profiling of multiregional primary colorectal cancer tissue samples,286,2024/04/04,Microarray
+GSE261305,C3G signal in native and allograft,108,2024/03/18,Microarray
+GSE248835,Impact of Tumor Microenvironment on Efficacy of CD19 CAR T-Cell Therapy or Chemotherapy and Transplant in Large B-Cell Lymphoma,256,2024/02/26,Microarray
+GSE228783,Inter-patient heterogeneity in the hepatic ischemia-reperfusion injury transcriptome: implications for research and diagnostics,152,2024/02/21,Microarray
+GSE228782,Inter-patient heterogeneity in the hepatic ischemia-reperfusion injury transcriptome: implications for research and diagnostics [MUG data],83,2024/02/21,Microarray
+GSE228781,Inter-patient heterogeneity in the hepatic ischemia-reperfusion injury transcriptome: implications for research and diagnostics [EMC data],69,2024/02/21,Microarray
+GSE227756,NanoString immune profiling of pediatric brain tumors,571,2024/02/19,Microarray
+GSE241224,Gene expression profiling of malignant peripheral nerve sheath tumors (MPNSTs) and benign neurofibroma tissue samples.,79,2024/02/13,Microarray
+GSE244984,Molecular patterns of resistance to immune checkpoint blockade in melanoma,78,2024/02/06,Microarray
+GSE253531,Verification of Molecular Subtyping of Bladder Cancer in the GUSTO Clinical Trial,54,2024/01/18,Microarray
+GSE249262,Circulating tumor cell analysis from stage III lung cancer patients,76,2024/01/18,Microarray
+GSE153316,Gene expression profiles of adipose tissue adjacent to and distant from breast cancer,82,2024/01/15,Microarray
+GSE234138,Capturing the dynamic interactions between tumor and immune components of the tumor micro-environment is important for determining efficacy of anti-PD1 treatment,114,2024/01/09,Microarray
+GSE234136,Capturing the dynamic interactions between tumor and immune components of the tumor micro-environment is important for determining efficacy of anti-PD1 treatment [Post Culture_Metadata],91,2024/01/09,Microarray
+GSE245953,Gene expression data from muscle-invasive bladder cancer samples II,310,2023/12/31,Microarray
+GSE212549,Expression profiling in R/M HNSCC treated with immunotherapy (training set),80,2023/12/31,Microarray
+GSE248381,Pathway level subtyping identifies a slow-cycling biological phenotype associated with poor clinical outcomes in colorectal cancer.,258,2023/12/12,Microarray
+GSE244266,"Association of Molecular Subtypes with Pathologic Response, PFS and OS in a Phase II Study of Coexpression Extrapolation (COXEN) with Neoadjuvant Chemotherapy (NAC) for Localized, Muscle-Invasive Bladder Cancer (SWOG S1314; NCT02177695)",189,2023/11/28,Microarray
+GSE239409,PDGFRβ signaling cooperates with β-catenin to modulate c-Abl and biologic behavior of desmoid-type fibromatosis,107,2023/11/01,Microarray
+GSE237692,PDGFRβ signaling cooperates with β-catenin to modulate c-Abl and biologic behavior of desmoid-type fibromatosis [microarray],85,2023/10/31,Microarray
+GSE245735,Stem cell technology provides novel tools to understand the impact of human variation on malaria,100,2023/10/21,Microarray
+GSE234017,Spatial Transcriptomics Suggests That Alterations 4 Occur in the Preneoplastic Breast Microenvironment of 5 Q2 BRCA1/2 Mutation Carriers,142,2023/10/11,Microarray
+GSE229598,Expression of retinoblatoma,114,2023/10/11,Microarray
+GSE181339,Study of the usefulness of human peripheral blood mononuclear cells for the analysis of metabolic recovery after weight loss (METAHEALTH-TEST),78,2023/10/11,Microarray
+GSE208102,Gene expression profile of luminal breast cancer samples from FFPE sample of primary luminal breast cancer from patient who had a loco-regional recurrence,111,2023/09/15,Microarray
+GSE208101,Gene expression profile of luminal breast cancer samples from FFPE sample of primary luminal breast cancer from patient who had a loco-regional recurrence [cohort B],51,2023/09/15,Microarray
+GSE207847,Gene expression profile of luminal breast cancer samples from FFPE sample of primary luminal breast cancer from patient who had a loco-regional recurrence [cohort A],60,2023/09/15,Microarray
+GSE222054,Targeted gene expression panel for meningiomas,1202,2023/09/06,Microarray
+GSE76246,Identification of HIV1-specific cascaded microRNA-mRNA regulatory relationships by parallel mRNA and microRNA expression profiling with AIDS patients after antiviral treatment,74,2023/08/31,Microarray
+GSE236924,SIRPa agonist antibody treatment ameliorates experimental arthritis and colitis [array],132,2023/08/24,Microarray
+GSE222073,Patterns of metastasis and recurrence in urothelial cancer molecular subtypes,146,2023/08/24,Microarray
+GSE196033,Identification and subsequent validation of transcriptomic signature associated with metabolic status in endometrial cancer,87,2023/08/24,Microarray
+GSE156309,Gene expression of 61 FFPE tissues of DLBCL patients at high-risk (aaIPI 2 or 3),61,2023/08/16,Microarray
+GSE235356,Expression data of plasma cell from MGUS patients,358,2023/08/15,Microarray
+GSE233616,Transcription factor expression repertoire basis for epigenetic and transcriptional subtypes of colorectal cancers,188,2023/08/09,Microarray
+GSE233602,Affymetrix array expression data from colon polyps,61,2023/08/09,Microarray
+GSE225328,Transcriptome profiling in early-stage luminal breast cancer,192,2023/08/02,Microarray
+GSE153230,Integrated copy number and transcriptomic profiling reveal novel oncogenic drivers and clinically significant biomarkers in adenoid cystic carcinoma,137,2023/08/02,Microarray
+GSE211445,C99R mutation in IRF4 drives a novel gain of function binding and gene upregulation in classical Hodgkin lymphoma,63,2023/07/19,Microarray
+GSE237249,Consensus molecular subtype transition during progression of colorectal cancer,72,2023/07/13,Microarray
+GSE200133,Revealing and harnessing CD39 for the treatment of colorectal cancer and liver metastases by engineered T cells,137,2023/07/12,Microarray
+GSE200131,Revealing and harnessing CD39 for the treatment of colorectal cancer and liver metastases by engineered T cells [NanoString],58,2023/07/12,Microarray
+GSE236725,The 31 pairs of FF and FFPE data for the development of 72GC for FFPE in 2014,62,2023/07/11,Microarray
+GSE235475,Trackable Intratumor Microdosing and Spatial Profiling Provide Early Insights into Activity of Investigational Agents in the Intact Tumor Microenvironment,354,2023/06/28,Microarray
+GSE225787,Combinatorial blood platelets-derived circRNA and mRNA signature for early-stage lung cancer,120,2023/06/23,Microarray
+GSE235067,"Predictive signature of response to neoadjuvant chemotherapy in muscle-invasive bladder cancer integrating mRNA expression, taxonomic subtypes, and clinicopathological features",84,2023/06/20,Microarray
+GSE234686,The 31 pairs of FF (fresh frozen) andFFPE (Formalin-fixed paraffin-embedded) data for the application of 95GC to FFPE in 2019.,62,2023/06/16,Microarray
+GSE234114,The Validation set of the genomic nodal index (GNI) in 2014,120,2023/06/09,Microarray
+GSE233909,The second Validation set of the 95GC in 2013.,56,2023/06/03,Microarray
+GSE212070,Molecular subtypes of head and neck cancer – Prognostic impact and correlations with morphological characteristics,103,2023/06/01,Microarray
+GSE200864,Definition and prognostic impact of Ph-like and IKZF1plus features in children with Down Syndrome Acute Lymphoblastic Leukaemia,64,2023/05/31,Microarray
+GSE233251,The Validation Set for the initial development of the 95GC in 2011.,105,2023/05/28,Microarray
+GSE230881,IRSN-23 Prospective Analyses,263,2023/05/19,Microarray
+GSE61883,Distinct molecular profiles for histological subtypes of epithelial ovarian adenocarcinomas,90,2023/05/18,Microarray
+GSE231629,Microarray gene expression profiles from female ER-positive HER2-normal breast cancer patients,109,2023/05/09,Microarray
+GSE39144,"Expression data of human induced pluripotent stem cells (hiPSCs), human embryonic stem cells (hESCs) and those differentiated cells.",77,2023/05/09,Microarray
+GSE208103,Gene expression profile of FFPE samples collected with translational purposes from the MITO16/MaNGO-OV2 clinical trial,196,2023/04/19,Microarray
+GSE226461,C/EBPα confers dependence to fatty acid anabolic pathways and vulnerability to lipid oxidative stress-induced ferroptosis in FLT3-mutant leukemia,66,2023/04/03,Microarray
+GSE211486,"Integrated miRNAs profiling, DNA methylation, and RNA expression in gastroenteropancreatic neuroendocrine neoplasias",271,2023/03/31,Microarray
+GSE211485,"Integrated miRNAs profiling, DNA methylation, and RNA expression in gastroenteropancreatic neuroendocrine neoplasias [mRNA]",63,2023/03/31,Microarray
+GSE40492,Molecular Markers for Predicting Treatment Outcome in Patients with Rectal Cancer: A Comprehensive Analysis from the German Rectal Cancer Trials,245,2023/03/31,Microarray
+GSE201525,Investigation of the anti-tumour properties of interferon epsilon in high grade serous ovarian cancer,96,2023/03/28,Microarray
+GSE147163,Molecular subtypes in gastric cancer. [III],50,2023/03/18,Microarray
+GSE224883,Explore the role of RHAMM in invasion/metastasis of breast cancer,94,2023/03/17,Microarray
+GSE180395,Glomerular and Tubular Transcriptome in the Cprobe Cohort,121,2023/03/09,Microarray
+GSE180394,Tubular Transcriptome in the Cprobe Cohort,59,2023/03/09,Microarray
+GSE180393,Glomerular Transcriptome in the Cprobe Cohort,62,2023/03/09,Microarray
+GSE226289,Expression data for Vanderbilt triple-negative breast cancer subtype classification,147,2023/03/04,Microarray
+GSE172159,mRNA expression profiles of 223 cancer cell lines including newly established ones,223,2023/02/21,Microarray
+GSE212245,Transcriptomic alterations underlying metaplasia into specific metaplastic components in metaplastic breast carcinoma,60,2023/01/31,Microarray
+GSE223606,Nanostring analysis of medulloblastoma samples using the PanCancer Immune Profile Nanostring Panel,83,2023/01/29,Microarray
+GSE216333,Predictors of success in establishing orthotopic patient-derived xenograft models of triple negative breast cancer,207,2023/01/12,Microarray
+GSE222124,"Gene expression alterations in the cell lines Jurkat, THP1, and KHYG-1 upon treatment with glycodelin from non-small-cell lung cancer cell line supernatant",70,2023/01/09,Microarray
+GSE203149,Gene expression data from muscle-invasive bladder cancer samples,171,2022/12/31,Microarray
+GSE171597,miRNA expression in LGCIN outcomes,51,2022/12/31,Microarray
+GSE159848,Expression data from 50 mixoid liposarcomas,50,2022/12/31,Microarray
+GSE159847,Expression data from 87 complex sarcomas,87,2022/12/31,Microarray
+GSE120490,Improving Risk Assessment for Metastatic Disease in Endometrioid Endometrial Cancer Patients Using Molecular and Clinical Features: an NRG Oncology / Gynecologic Oncology Group Study,145,2022/12/30,Microarray
+GSE206912,Identification of a minimum number of genes to predict triple negative breast cancer subgroups from gene expression profiles,72,2022/12/24,Microarray
+GSE220150,"Transcriptomics of colorectal cancer in Siriraj cohort, Thailand",172,2022/12/07,Microarray
+GSE220149,"Transcriptomics of colorectal cancer in Siriraj cohort, Thailand (NanoString)",58,2022/12/07,Microarray
+GSE183795,"Microarray gene-expression profiles of 139 pancreatic tumor,102 adjacent non-tumor tissue from patients with pancreatic ductal adenocarcinoma and 3 normal pancreas from donors.",244,2022/12/01,Microarray
+GSE189631,Landscape of immune-related signatures induced by targeting of epigenetic regulators in melanoma IV,107,2022/11/23,Microarray
+GSE201468,A clinical-grade HLA haplobank of human induced pluripotent stem cells derived from Japanese donors,391,2022/11/15,Microarray
+GSE212114,Expression of TCF3 target genes defines a subclass of diffuse large B-cell lymphoma characterized by up-regulation of MYC target genes and poor clinical outcome following R-CHOP therapy,58,2022/11/10,Microarray
+GSE214540,The g3mclass is a practical software for multiclass classification on biomarkers,251,2022/11/09,Microarray
+GSE211576,Novel prognostic implications of complement activation in the tumor microenvironment for de novo metastatic BRAF V600E mutant colorectal cancer,54,2022/11/08,Microarray
+GSE197147,"Gene expression-based dissection of inter-histotype, in-tra-histotype and intra-tumor heterogeneity in pediatric tumors",79,2022/11/02,Microarray
+GSE210661,Smoking modulates different secretory subpopulations expressing SARS-CoV-2 entry genes in the nasal and bronchial airways,1434,2022/10/25,Microarray
+GSE210272,Smoking modulates different secretory subpopulations expressing SARS-CoV-2 entry genes in the nasal and bronchial airways (BCLHS bronchial brushings),238,2022/10/25,Microarray
+GSE210271,Smoking modulates different secretory subpopulations expressing SARS-CoV-2 entry genes in the nasal and bronchial airways (AEGIS nasal brushings),505,2022/10/25,Microarray
+GSE215868,Baseline gene expression profiling determines long-term benefit to programmed cell death protein 1 axis blockade,105,2022/10/21,Microarray
+GSE212902,Histological subtypes drive distinct prognostic immune signatures in classical Hodgkin lymphoma.,66,2022/10/10,Microarray
+GSE171447,MLL3 loss drives metastasis and therapeutic resistance by promoting a hybrid EMT state,54,2022/10/07,Microarray
+GSE138300,Gene expression of 50 FFPE tissues of adults with T-cell lymphoblastic lymphoma,50,2022/10/01,Microarray
+GSE197977,Tumour immune contexture is a determinant of anti-CD19 CAR T-cell efficacy in large B cell lymphoma,74,2022/09/23,Microarray
+GSE185507,An immunological signature to predict outcome in patients with triple-negative breast cancer patients with residual disease after neoadjuvant chemotherapy,115,2022/09/20,Microarray
+GSE209875,MicroRNA and mRNA expression profiles of hepatobiliary tumor patients' tissue together with those of non-tumor part tissues and serum exosomes.,80,2022/09/16,Microarray
+GSE176100,IMMUNE SENESCENCE PHENOTYPES PREDICT CHEMOTHERAPY RESISTANCE IN ACUTE MYELOID LEUKAEMIA,95,2022/09/16,Microarray
+GSE198103,Expression data for tumor and normal tissue samples from deceased sepsis and non-sepsis colorectal cancer patients,55,2022/09/01,Microarray
+GSE181962,PDX bank from urothelial cancer to guide precision medicine.,54,2022/08/31,Microarray
+GSE171053,Gene expression data of serially sorted primary AML patient blasts prior and after treatment with the DNMT inhibitor decitabine (DAC),133,2022/08/31,Microarray
+GSE212047,Opposing Roles of Hepatic Stellate Cell Subpopulations in Hepatocarcinogenesis,64,2022/08/26,Microarray
+GSE203611,Gene expression profiling of mucinous ovarian tumors and comparison with upper and lower gastrointestinal tumors,604,2022/08/26,Microarray
+GSE211729,"Adipose-enriched peri-tumoral stroma, in contrast to myofibroblast-enriched stroma, prognosticates poorer survival in breast cancers.",126,2022/08/22,Microarray
+GSE205270,Chromothripsis is a frequent event and underlies typical genetic changes in early T-cell precursor lymphoblastic leukemia in adults,108,2022/08/17,Microarray
+GSE205265,Chromothripsis is a frequent event and underlies typical genetic changes in early T-cell precursor lymphoblastic leukemia in adults [gene expression],68,2022/08/17,Microarray
+GSE211098,Expression patterns of microRNAs and associated target genes in ulcerated primary cutaneous melanoma,80,2022/08/13,Microarray
+GSE210648,Integrated multi-omics reveals cellular and molecular interactions governing the invasive niche of basal cell carcinoma (Digital Spatial Profiling),95,2022/08/06,Microarray
+GSE183088,TRIM28 keeps the time of mitotic gene expression sustaining proliferation and progression of Malignant Pleural Mesothelioma (MPM).,86,2022/08/03,Microarray
+GSE209954,Genomic testing in early localized prostate cancer may define subsets of African Americans with aggressive disease—a prospective study,226,2022/07/29,Microarray
+GSE208180,Expression of microRNAs and their target genes in melanomas originating from gynecologic sites,81,2022/07/16,Microarray
+GSE47994,"Tumor-infiltrating lymphocytes, prognosis and trastuzumab benefit in early-stage breast cancer patients from the FinHER trial",337,2022/07/16,Microarray
+GSE175616,Clinical study of the effect of combined treatment of aspirin and zileuton on biomarkers of tobacco-related carcinogenesis in current smokers,123,2022/06/29,Microarray
+GSE206613,A novel gene signature unveils three distinct immune-metabolic rewiring patterns conserved across diverse tumor types and associated with outcome,77,2022/06/26,Microarray
+GSE206793,MicroRNA (miRNA) expression from blood plasma of patients with a prostate cancer,152,2022/06/24,Microarray
+GSE174570,Cabozantinib enhances anti-PD1 efficacy and elicits a neutrophil-based immune response in murine models: implications for human HCC,114,2022/06/15,Microarray
+GSE199759,Integrative analysis of expression profile in the glioma-related epilepsy,50,2022/06/07,Microarray
+GSE205209,PLK3 amplification and tumor immune microenvironment of metastatic tumors are linked to adjuvant treatment outcomes in uterine serous cancer,60,2022/06/01,Microarray
+GSE164706,Gene expression profiling of newly diagnosed multiple myeloma patients included in the HOVON95 clinical trial,240,2022/06/01,Microarray
+GSE164703,Gene expression profiling of newly diagnosed plasma cell leukemia patients included in the HOVON129 clinical trial,57,2022/06/01,Microarray
+GSE164701,Gene expression profiling of newly diagnosed multiple myeloma patients included in the HOVON131 clinical trial,109,2022/06/01,Microarray
+GSE156030,Normalisation-free Gene Expression Survival Classification for Melanoma,105,2022/05/30,Microarray
+GSE196096,I-SPY2-990 mRNA/RPPA Data Resource,1724,2022/05/25,Microarray
+GSE194040,I-SPY2-990 mRNA/RPPA Data Resource: mRNA component,988,2022/05/25,Microarray
+GSE200879,Transcriptomics biomarkers in prostate cancer,137,2022/05/18,Microarray
+GSE202806,Transcriptomic analyses of NF1-mutant melanoma,52,2022/05/12,Microarray
+GSE199618,BCG therapy downregulates HLA-I on malignant cells to subvert antitumor immune responses in bladder cancer,58,2022/05/05,Microarray
+GSE202043,Integrative Genomic Analysis of Medulloblastoma Identiﬁes a Molecular Subgroup That Drives Poor Clinical Outcome,214,2022/05/03,Microarray
+GSE201805,Transcriptional profiling of primary prostate tumor in metastatic hormonesensitive prostate cancer and association with clinical outcomes: correlative analysis of the E3805 CHAARTED study,160,2022/05/01,Microarray
+GSE201583,Predicting Relapse in Patients With Medulloblastoma by Integrating Evidence From Clinical and Genomic Feature,111,2022/04/28,Microarray
+GSE199135,Clinical Relevance of estrogen reactivity in the breast cancer microenvironment,112,2022/04/26,Microarray
+GSE178631,A prognostic hypoxia gene signature with low heterogeneity within the dominant tumour lesion in prostate cancer patients.,141,2022/04/01,Microarray
+GSE168466,Molecular classification of histological origin of NSCLC,98,2022/04/01,Microarray
+GSE67614,Gene expression analysis in high risk head and neck squamous cell carcinoma treated with post-operative radiotherapy,102,2022/03/16,Microarray
+GSE197802,Colorectal Cancer Concurrent Gene Signature Based on Coherent Patterns between Genomic and Transcriptional Alterations,88,2022/03/15,Microarray
+GSE198269,Predictive biomarkers for survival benefit with ramucirumab in urothelial cancer in the RANGE trial,394,2022/03/14,Microarray
+GSE128311,MicroRNA and mRNA regulatory network in ALK-rearranged lung adenocarcinoma,154,2022/03/14,Microarray
+GSE128309,MicroRNA and mRNA regulatory network in ALK-rearranged lung adenocarcinoma [mRNA],77,2022/03/14,Microarray
+GSE169754,miR-22 and miR-205 drive tumor aggressiveness of mucoepidermoid carcinomas of salivary glands,70,2022/03/03,Microarray
+GSE196723,Gene expression profiles from female BasL breast cancer patients,170,2022/02/14,Microarray
+GSE148346,JAK3/TEC and TYK2/JAK1 inhibitors demonstrate significant improvement in scalp alopecia areata biomarkers,129,2022/01/25,Microarray
+GSE193150,Transcripts associated with chronic lung allograft dysfunction in transbronchial biopsies of lung transplants,949,2022/01/09,Microarray
+GSE183136,Development and Validation of a Prognostic and Predictive 32-Gene Signature for Gastric Cancer,135,2022/01/01,Microarray
+GSE192817,Cellular plasticity upon proton irradiation determines tumor cell radiosensitivity,52,2021/12/31,Microarray
+GSE156354,Inter-cellular machinery governing formation of a pro-metastatic vascular niche during breast cancer colonization in lungs,63,2021/12/31,Microarray
+GSE44589,Gene expression-based imatinib response prediction in chronic phase CML,198,2021/12/31,Microarray
+GSE186537,Gene expression analysis of the bone marrow microenvironment reveals distinct immunotypes in smoldering multiple myeloma associated to progression to symptomatic disease,72,2021/12/15,Microarray
+GSE190275,TP53 signature predicts survival outcome in triple-negative breast cancer with neoadjuvant chemotherapy,60,2021/12/10,Microarray
+GSE186102,"Neoadjuvant eribulin in HER2-negative early-stage breast cancer (SOLTI-1007-NeoEribulin): a multicenter, two-cohort, non-randomized phase II trial",473,2021/12/10,Microarray
+GSE186582,Expression data from intestinal mucosa of patients with Crohn disease,489,2021/12/05,Microarray
+GSE162956,Distinct miR Expression Signatures of Primary and Secondary CNS Lymphomas,73,2021/11/29,Microarray
+GSE160120,Minimal Genomic Instability and Increased Immune Activity Differentiate EBV-positive PTCL from ENKTL and PTCL NOS,165,2021/11/27,Microarray
+GSE160119,Minimal Genomic Instability and Increased Immune Activity Differentiate EBV-positive PTCL from ENKTL and PTCL NOS [GEP],88,2021/11/27,Microarray
+GSE189343,Clinical and biological relevance of the transcriptomic-based prostate cancer metastasis subtypes MetA-C,103,2021/11/23,Microarray
+GSE166999,Integrative analysis of non-small cell lung cancer patient-derived xenografts identifies unique proteotypes associated with patient outcomes,110,2021/11/23,Microarray
+GSE166998,Integrative analysis of non-small cell lung cancer patient-derived xenografts identifies unique proteotypes associated with patient outcomes [WG-DASL],100,2021/11/23,Microarray
+GSE123088,A validated single-cell-based strategy to identify diagnostic and therapeutic targets in complex diseases,204,2021/11/23,Microarray
+GSE123086,A validated single-cell-based strategy to identify diagnostic and therapeutic targets in complex diseases [study of 13 diseases],166,2021/11/23,Microarray
+GSE169455,Differential neoadjuvant chemotherapy response in urothelial carcinoma molecular subtypes,149,2021/11/19,Microarray
+GSE183030,A novel diagnostic approach for the classification of small B-cell lymphoid neoplasms based on the NanoString platform,356,2021/11/18,Microarray
+GSE189007,Gene-expression profiles of whole blood cells from a Han Chinese population with or without Type-2 Diabetes Mellitus or/and its complications in nephropathy and retinopathy,130,2021/11/17,Microarray
+GSE148321,Dietary palmitic acid promotes a prometastatic epigenetic memory related to tumor innervation,1134,2021/11/16,Microarray
+GSE148320,Dietary palmitic acid promotes a prometastatic epigenetic memory related to tumor innervation [III],57,2021/11/16,Microarray
+GSE148319,Dietary palmitic acid promotes a prometastatic epigenetic memory related to tumor innervation [IV],83,2021/11/16,Microarray
+GSE106584,Identifying biomarkers predicting response to chemotherapy in Stage II and Stage III colorectal cancer patients,156,2021/11/04,Microarray
+GSE163173,Gene expression profiling in HPV-infected oropharyngeal head and neck cancer,286,2021/11/03,Microarray
+GSE182852,AGATA: First nationwide molecular screening program in Spain for patients with advanced breast cancer,177,2021/11/01,Microarray
+GSE122626,Whole Blood Gene Expression Profiling in Patients Undergoing Laparoscopic Colon Cancer Surgery,78,2021/11/01,Microarray
+GSE152529,Pharmacogenomic characterization of the MDM2 inhibitor MI-773 reveals candidate tumours and predictive biomarkers,237,2021/10/27,Microarray
+GSE186110,Functional screen of Inflammatory bowel disease genes reveals key epithelial functions: Illumina Whole Genome Dataset,376,2021/10/20,Microarray
+GSE162789,Class I histone deacetylases (HDAC) critically contribute to Ewing sarcoma pathogenesis,78,2021/10/20,Microarray
+GSE186001,Functional screen of Inflammatory bowel disease genes reveals key epithelial functions: Agilent Targeted Dataset,426,2021/10/16,Microarray
+GSE185264,Identification of a Novel Inflamed Tumor Microenvironment Signature as a Predictive Biomarker of Bacillus Calmette-Guérin Immunotherapy in Non–Muscle-Invasive Bladder Cancer,78,2021/10/05,Microarray
+GSE166069,Cell-type specific meQTL extends melanoma GWAS annotation beyond eQTL and identifies a melanocyte gene regulatory network,106,2021/10/01,Microarray
+GSE180347,Transcriptomic analysis of PD-L1 positive and negative hot lung adenocarcinomas identifies a different molecular immunogenic landscape,144,2021/09/27,Microarray
+GSE184585,Gene expression data from patients with pancreatic ductal adenocarcinoma,82,2021/09/23,Microarray
+GSE183356,Molecular Profiling of COVID-19 Autopsies Uncovers Novel Disease Mechanisms [Digital Spatial Profiling data],120,2021/09/03,Microarray
+GSE183140,Integrated miRNA-genomic analysis of sunitinib resistance in clear cell renal cell carcinoma (CCRCC) cell lines,54,2021/09/02,Microarray
+GSE145848,Key Super Enhancers Drive Tumor-Suppressing Transcription Feedback Programs in Mature B Cell Cancers,301,2021/09/02,Microarray
+GSE182162,Neoadjuvant talimogene laherparepvec plus surgery vs surgery alone for resectable stage IIIB-IVM1a melanoma,135,2021/09/01,Microarray
+GSE162228,Concordance of PAM50 molecular subtyping between oligonucleotide microarray and NanoString nCounter assay for Taiwanese breast cancer,133,2021/09/01,Microarray
+GSE178201,The Carcinogenome Project,3984,2021/08/28,Microarray
+GSE128990,Immune subtype of ovarian clear cell carcinoma,96,2021/08/27,Microarray
+GSE181574,Neoadjuvant T-DM1/pertuzumab and paclitaxel/trastuzumab/pertuzumab for HER2-positive breast cancer in the adaptively randomized I-SPY2 trial.,127,2021/08/24,Microarray
+GSE180962,Ganitumab and Metformin plus Standard Neoadjuvant Therapy in Stage 2/3 Breast Cancer: Results from the I-SPY2 Adaptively Randomized Platform Trial,233,2021/08/24,Microarray
+GSE182299,Molecular Profiling of COVID-19 Autopsies Uncovers Novel Disease Mechanisms,148,2021/08/20,Microarray
+GSE159956,ABI1-based 7-gene expression signature predicts breast cancer metastasis and survival,295,2021/08/18,Microarray
+GSE160482,Response of SCLC to mutant KRAS or EGFR induction,54,2021/08/17,Microarray
+GSE147996,Replacement of nitrite in meat products by natural bioactive compounds results in reduced exposure to N-nitroso compounds: the PHYTOME project,216,2021/08/17,Microarray
+GSE181548,Pam50 of a Triple-Negative Breast Cancer Cohort Treated with Neoadjuvant Carboplatin and Docetaxel According to Lehmann's Refined Classification,105,2021/08/07,Microarray
+GSE167213,Identifying High-Risk Triple-Negative Breast Cancer Patients by Molecular Subtyping,124,2021/07/31,Microarray
+GSE181063,Whole genome expression profiling based on paraffin embedded tissue of a large DLBCL cohort,1310,2021/07/30,Microarray
+GSE142583,Gene Expression Profiling and Prediction of Survival in Oropharyngeal Tumors,58,2021/07/30,Microarray
+GSE178236,Genome-wide gene expression analysis in 84 neurospheres derived from as many primary glioblastomas,113,2021/07/27,Microarray
+GSE178120,Gene expression profiling of colorectal cancer tissue samples,105,2021/07/27,Microarray
+GSE159216,Gene expression profiling of colorectal cancer liver metastases (CRLM).,283,2021/07/27,Microarray
+GSE180607,Network-based assessment of HDAC6 activity is highly predictive of pre-clinical and clinical responses to the HDAC6 inhibitor ricolinostat,73,2021/07/23,Microarray
+GSE157284,Gene expression profiles of PD-L1 SP142 expression in triple-negative breast cancer,82,2021/07/14,Microarray
+GSE147116,Gene expression profile unveils different biological effect of serum Vitamin in Hodgkin and Diffuse Large B-Cell Lymphoma,64,2021/07/13,Microarray
+GSE147115,DLBCL patients,52,2021/07/13,Microarray
+GSE58785,Pan-genomic study of primary human retinoblastoma samples,312,2021/07/06,Microarray
+GSE58780,Retinoblastoma gene expression data,66,2021/07/06,Microarray
+GSE166912,Molecular profiles and urinary biomarkers of upper tract urothelial carcinomas associated with aristolochic acid exposure,94,2021/06/30,Microarray
+GSE126595,Expression data from CLL patient samples investigated to define biologic heterogeneity.,726,2021/06/30,Microarray
+GSE164760,Molecular characterization of hepatocellular carcinoma in patients with non-alcoholic steatohepatitis,170,2021/06/29,Microarray
+GSE81801,Prognostic Liver Signature profiles of Jc1-infected Huh7.5.1dif cells treated with various drugs,90,2021/06/28,Microarray
+GSE66843,A cell-based model unravels drivers for hepatocarcinogenesis and targets for clinical chemoprevention,265,2021/06/28,Microarray
+GSE66841,"Gene expression profiles of Huh7.5.1 and HepG2 cells infected with HCV, HBV, HDV, and alcohol, and clinical liver tissues treated with various compounds of co-culture with LX2 cells",95,2021/06/28,Microarray
+GSE161532,Gene expression profiling of Acute Myeloid Leukemia,61,2021/06/23,Microarray
+GSE157984,Scottish Colorectal Cancer Vitamin D Intervention Study (SCoViDS),98,2021/06/23,Microarray
+GSE116045,miR-579-3p controls hepatocellular carcinoma formation by regulating the PI3K-AKT pathway in chronically inflamed liver,196,2021/06/20,Microarray
+GSE116044,miR-579-3p controls hepatocellular carcinoma formation by regulating the PI3K-AKT pathway in chronically inflamed liver (mRNA expression),98,2021/06/20,Microarray
+GSE151103,Disruption of Y chromosome expression in male lung cancer,360,2021/06/15,Microarray
+GSE151102,Disruption of Y chromosome expression in male lung cancer: replication,123,2021/06/15,Microarray
+GSE151101,Disruption of Y chromosome expression in male lung cancer: discovery,237,2021/06/15,Microarray
+GSE177549,Custom NanoString Gene Expression Assay for Subtype Identification in Glioblastoma,84,2021/06/13,Microarray
+GSE173839,Durvalumab with olaparib and paclitaxel for high-risk HER2-negative stage II/III breast cancer: Results from the adaptively randomized I-SPY2 platform trial ,105,2021/06/10,Microarray
+GSE176339,The Ewing Sarcoma Cell Line Atlas (ESCLA),306,2021/06/09,Microarray
+GSE176190,The Ewing Sarcoma Cell Line Atlas (ESCLA) - expression profiling of 18 Ewing sarcoma cell lines in EWSR1-ETS-high versus -low condition,108,2021/06/09,Microarray
+GSE176128,Long non-coding RNA landscape of patients biopsies from advanced Triple Negative Breast Cancer,55,2021/06/04,Microarray
+GSE176126,Gene-expression profiling of osseous and non-osseous DLBCL with the NanoString nCounter technology,62,2021/06/04,Microarray
+GSE169038,"Comparative Analysis of 1,152 African-American and European-American Men with Prostate Cancer Identifies Distinct Genomic and Immunological Differences",1152,2021/06/03,Microarray
+GSE175692,Gene expression profiles of breast cancer metastasis according to organ site,184,2021/05/28,Microarray
+GSE175433,Immune profiles of early onset vs late onset colorectal cancer,79,2021/05/25,Microarray
+GSE140973,Secondary Resistance to Anti-EGFR Therapy by Transcriptional Reprogramming in Patient-Derived Colorectal Cancer Models,114,2021/05/21,Microarray
+GSE141016,Tumor immune microenvironment difference primary and metastatic hepatocellular carcinoma,62,2021/05/18,Microarray
+GSE137034,Chromatin accessibility governs the differential response of cancer and T-cells to arginine starvation,78,2021/05/10,Microarray
+GSE161023,Differential genetic influences over colorectal cancer risk and gene expression in large bowel mucosa,481,2021/04/29,Microarray
+GSE142162,Expression profiling of Ewing sarcoma samples,79,2021/04/29,Microarray
+GSE133228,STAG2 promotes CTCF-anchored loop extrusion and cis-promoter and -enhancer interactions,336,2021/04/29,Microarray
+GSE133120,Transcriptomic analysis of human cancer cell lines treated with the histone deacetylase inhibitor romidepsin,57,2021/04/29,Microarray
+GSE118336,"HTA2.0 (human transcriptome array) analysis of control iPSC-derived motor neurons (MN), FUS-H517D-hetero-iPSC-MN, and FUS-H517D-homo-iPSC-MNs",60,2021/04/19,Microarray
+GSE132112,Gene expression-profiling to predict induction chemotherapy efficacy in locoregionally advanced nasopharyngeal carcinoma,95,2021/04/14,Microarray
+GSE171739,A gene set signature for the risk of progression in IgM MGUS to Waldenström Macroglobulinemia by microarray of B cells and plasma cells,105,2021/04/09,Microarray
+GSE147933,TPLL samples and normal T cell fractions,105,2021/04/02,Microarray
+GSE128213,Expression data from CRC patient-derived organoids,76,2021/04/01,Microarray
+GSE169498,Screening and Identification of Key Microenvironment-Related Genes in Non-Functioning Pituitary Adenoma,73,2021/03/30,Microarray
+GSE170999,Gene expression data of locally advanced rectal cancer patients by KRAS status,76,2021/03/29,Microarray
+GSE147762,Global gene expression and Stromal contents improve prognostic power in PMP patients treated by CRS+HIPEC,102,2021/03/21,Microarray
+GSE169033,Immune evolution from preneoplasia to invasive lung adenocarcinomas and underlying molecular features,85,2021/03/17,Microarray
+GSE168422,Adult High Grade B-cell Lymphoma with Burkitt Lymphoma Signature: Genomic features and Potential Therapeutic Targets,112,2021/03/09,Microarray
+GSE159514,Gene expression profiling of granulocytes from primary and secondary myelofibrosis,114,2021/03/09,Microarray
+GSE138696,Gene expression data of serially sorted primary AML patient blasts prior and after treatment with the DNMT inhibitor decitabine (DAC),80,2021/03/09,Microarray
+GSE163209,Expression analysis of human stage Ta and stage T1 bladder tumours,217,2021/02/22,Microarray
+GSE167093,Sexual dimorphism in cancer: insights from transcriptional signatures in kidney tissues and renal cell carcinoma,656,2021/02/20,Microarray
+GSE163114,Ki-67 promotes carcinogenesis by enabling global transcriptional programmes,52,2021/02/18,Microarray
+GSE163722,Association of RERG Expression to Female Survival Advantage in Malignant Pleural Mesothelioma,177,2021/02/15,Microarray
+GSE163720,Association of RERG Expression to Female Survival Advantage in Malignant Pleural Mesothelioma I,131,2021/02/15,Microarray
+GSE166427,"Healthy, adjacent normal and tumor colon cells",486,2021/02/09,Microarray
+GSE147711,Hsa_circ_102049 promotes liver metastasis of colorectal cancer by up-regulating Fraser extracellular matrix complex subunit 1,60,2021/02/08,Microarray
+GSE45498,Integrated microRNA and mRNA Signatures Associated with Survival in Triple Negative Breast Cancer II,536,2021/02/01,Microarray
+GSE136247,Expression data of tumor and non-tumor liver tissues from Peruvian patients with hepatocellular carcinoma (HCC),69,2021/01/31,Microarray
+GSE144127,Diagnostic performance of transcriptomic signatures for the evaluation of suspected tuberculosis in routine clinical practice,628,2021/01/26,Microarray
+GSE165004,Endometrial Tissue RNA expression in recurrent pregnancy losses and unexplained infertility vs. conrol,72,2021/01/18,Microarray
+GSE115002,Gene expression profile of EGFRwt/KRASwt/ALKwt lung adenocarcinoma (“pan-driver-gene-negative” LUAD) and developing a prognostic signature for “pan-driver-gene-negative” LUAD,104,2021/01/08,Microarray
+GSE164191,Blood based expression of colorectal cancer and healthy controls,121,2021/01/05,Microarray
+GSE111477,Inflammatory versus non-inflammatory breast cancers,122,2021/01/04,Microarray
+GSE87900,Gene expression profiling of elderly newly diagnosed multiple myeloma patients included in the HOVON87/NMSG-18 clinical trial,180,2021/01/01,Microarray
+GSE156915,In-depth clinical and biological exploration of DNA Damage Immune Response (DDIR) as a biomarker for oxaliplatin use in colorectal cancer,361,2020/12/31,Microarray
+GSE155484,Differential BET protein recruitment to IL-6 and IL-8 promoters and suppression of innate immunity and cell cycle genes by BET inhibitors in TNFalpha/IL-17 stimulated human keratinocytes,96,2020/12/31,Microarray
+GSE148949,BKM120 Treated WHIMs_17 Model Cohort,54,2020/12/31,Microarray
+GSE147472,GEP signatures in tumors from women with high grade early breast cancer,131,2020/12/23,Microarray
+GSE163130,Expression Profiles of HepG2 cells treated with 7 compounds,54,2020/12/15,Microarray
+GSE151335,NanoString nCounter with the Oxford Classifier of Carcinoma of the Ovary,160,2020/12/14,Microarray
+GSE159472,Expression data from DLBCL expression study,180,2020/12/07,Microarray
+GSE148705,Multi-parametric profiling of a large panel of engineered nanomaterials (ENM) points to surface chemistry as a key determinant of nanomaterial effects,96,2020/12/01,Microarray
+GSE142401,The postprandial transcriptomic response of adipose tissue to high fat meals in middle-aged men with metabolic syndrome,76,2020/12/01,Microarray
+GSE137419,Targeting aberrant DNA methylation in mesenchymal stromal cells as a treatment for myeloma bone disease,93,2020/11/25,Microarray
+GSE137369,Targeting aberrant DNA methylation in mesenchymal stromal cells as a treatment for myeloma bone disease [expression],52,2020/11/25,Microarray
+GSE151181,Gene and miRNA expression in radioiodine refractory and avid papillary thyroid carcinomas,99,2020/11/24,Microarray
+GSE151179,Gene and miRNA expression in radioiodine refractory and avid papillary thyroid carcinomas (gene expression dataset),52,2020/11/24,Microarray
+GSE157548,Plasma cells are enriched in localized prostate cancer in black men and are associated with improved outcomes,838,2020/11/18,Microarray
+GSE157547,Plasma cells are enriched in localized prostate cancer in black men and are associated with improved outcomes [Validation Cohort],538,2020/11/18,Microarray
+GSE153352,Plasma cells are enriched in localized prostate cancer in black men and are associated with improved outcomes [Discovery Cohort],300,2020/11/18,Microarray
+GSE161533,Expression data from esophageal squamous cell carcinoma patients,84,2020/11/17,Microarray
+GSE147786,Transcriptome and methylome analysis reveal three cellular origins of pituitary tumors,50,2020/11/16,Microarray
+GSE140494,Gene expression-based prediction of neodjuvant chemotherapy response in early breast cancer,91,2020/11/15,Microarray
+GSE161158,A SMAD4-modulated gene profile predicts disease-free survival in stage II and III colorectal cancer,250,2020/11/11,Microarray
+GSE159289,Analytical validation of SKY92 for the identification of high-risk Multiple Myeloma,652,2020/10/28,Microarray
+GSE153244,Brd/BET Proteins Influence the Genome-Wide Localization of the Kaposi’s Sarcoma-associated Herpesvirus and Murine Gammaherpesvirus Major Latency Proteins,98,2020/10/19,Microarray
+GSE104724,Expression data and methylation analysis of IDH1 mutant and wild-type high grade gliomas,62,2020/10/06,Microarray
+GSE146558,Gene Expression Signature of Microcalcification among Taiwanese Breast Cancer,109,2020/10/05,Microarray
+GSE151345,Functional precision medicine identifies new therapeutic candidates for medulloblastoma,57,2020/10/01,Microarray
+GSE104580,Using a novel gene signature for predicting the efficacy of the transarterial chemoembolization in patients with hepatocellular carcinoma.,147,2020/10/01,Microarray
+GSE104006,miRNA and gene expression profiling in human thyroid carcinomas and non-neoplastic thyroids,68,2020/09/30,Microarray
+GSE143383,Gene expression analysis of metastatic adrenocortical tumors,63,2020/09/25,Microarray
+GSE158309,Prognostic significance of interferon-γ and its signaling pathway in early breast cancer depends on the molecular subtypes,461,2020/09/22,Microarray
+GSE146204,"TP53 abnormalities correlate with immune infiltration and are associated with response to flotetuzumab, an investigational immunotherapy, in acute myeloid leukemia",64,2020/09/21,Microarray
+GSE150576,AKT/mTOR/HER/PI3K family genes and phospho-proteins as predictors of pCR for early stage breast cancer patients treated with the AKT inhibitor MK2206 in the I-SPY 2 TRIAL,288,2020/09/20,Microarray
+GSE149322,AKT/mTOR/HER/PI3K family genes as predictors of pCR for early stage breast cancer patients treated with the AKT inhibitor MK2206 in the I-SPY 2 TRIAL (NCT01042379),150,2020/09/20,Microarray
+GSE157738,Monocyte-derived DC Expression Data from Advanced Staged Melanoma Patients,102,2020/09/10,Microarray
+GSE103737,Transcriptional correlates of high norepinephrine content in ovarian carcinomas,97,2020/09/10,Microarray
+GSE157011,Multi-institutional prospective validation of prognostic mRNA signatures in early stage squamous lung cancer (Alliance),484,2020/08/28,Microarray
+GSE157010,Multi-institutional prospective validation of prognostic mRNA signatures in early stage squamous lung cancer (Alliance) [Cohort II],235,2020/08/28,Microarray
+GSE157009,Multi-institutional prospective validation of prognostic mRNA signatures in early stage squamous lung cancer (Alliance) [cohort I],249,2020/08/28,Microarray
+GSE142494,A dichotomy of gene regulatory associations during the activated B-cell to plasmablast transition,91,2020/08/24,Microarray
+GSE132342,A gene expression prognostic signature for overall survival in patients with high-grade serous ovarian cancer,3769,2020/08/20,Microarray
+GSE129978,AHR activation in glioblastoma cells and gene expression analysis of T cells in TCL1-AT mice.,92,2020/08/19,Microarray
+GSE134359,Long noncoding RNA landscape in breast cancer [Mexico],86,2020/08/12,Microarray
+GSE142191,Whole-exome and RNA sequencing of pulmonary carcinoid reveals chromosomal rearrangements associated with recurrence,59,2020/08/04,Microarray
+GSE135304,"Non-Small Cell Lung Cancer, Peripheral Immunity, Extending the Tumor Macroenvironment",712,2020/08/02,Microarray
+GSE119409,Expression data from rectal cancer,66,2020/08/01,Microarray
+GSE126025,Ependymoma subpopulation lineages underlie clinical classification and outcome,95,2020/07/31,Microarray
+GSE125861,Ependymoma subpopulation lineages underlie clinical classification and outcome (microarray data set),69,2020/07/31,Microarray
+GSE126038,FGFR4 is a key regulator of tumor subtype differentiation in luminal breast cancer and metastatic disease,54,2020/07/29,Microarray
+GSE153439,The Tumor Microenvironment and Inflammation Influence toxicity in patients with Large B Cell Lymphoma Treated with Axicabtagene Ciloleucel,61,2020/07/27,Microarray
+GSE135820,Development and validation of PrOTYPE (Predictor of high-grade-serous Ovarian carcinoma molecular subTYPE),4077,2020/07/22,Microarray
+GSE134160,Transcriptome-wide gene expression analysis of prostate cancer (PCa) tissue specimen on a custom expression microarray,164,2020/07/21,Microarray
+GSE115755,Establishment of patient-derived tumor xenografts from Asian gastric adenocarcinoma is characterized by clonal selection and bias in molecular subtypes,89,2020/07/15,Microarray
+GSE109857,A model of molecular characteristics to classify WHO Grade III glioma patients,225,2020/07/15,Microarray
+GSE154286,Chemotherapy negatively impacts the tumor immune microenvironment in NSCLC: An analysis of pre- and post-treatment biopsies in the multi-center SAKK19/09 study,133,2020/07/14,Microarray
+GSE152160,"Expression data from ""A patient-derived cell atlas of glioblastoma informs precision targeting of the proteasome"" (Johansson et al, Cell Reports, 2020)",145,2020/07/14,Microarray
+GSE138178,LncRNA and mRNA expression profile in hepatocellular carcinoma patient paired tissues,98,2020/07/13,Microarray
+GSE101425,Expression data from mesenchymal stromal cells derived from pediatric leukemia patients and healthy pediatric controls,86,2020/07/13,Microarray
+GSE114375,Combining mathematical and statistical modeling to simulate time course bulk and single cell gene expression data in cancer with CancerInSilico,90,2020/07/09,Microarray
+GSE151158,Transcriptional analysis of non-fibrotic NAFLD progression,66,2020/07/08,Microarray
+GSE138660,Ets1 confers context-dependent activation of Notch signaling in T-cell leukemia,53,2020/07/07,Microarray
+GSE134568,Mesenchymal subtypes of hepatocellular carcinoma,110,2020/07/01,Microarray
+GSE134470,Gene expression analysis reveals close resemblance between Glioblastoma (GBM) patient tumors and corresponding patient-derived orthotopic xenografts (PDOXs),58,2020/07/01,Microarray
+GSE153470,Molecular profiling of aromatase inhibitor-treated post-menopausal breast tumors identifies immunerelated correlates of resistance,162,2020/06/29,Microarray
+GSE146114,Combining imaging- and gene-based hypoxia biomarkers in cervical cancer improves prediction of treatment failure independent of intratumor heterogeneity,142,2020/06/26,Microarray
+GSE117973,Global gene expression analysis of primary head and neck cancer cases,77,2020/06/19,Microarray
+GSE134051,Differential gene expression analysis by assessing expression variation between tissue specimen of prostate cancer (PCa) and benign prostate hyperplasia (BPH) on a custom expression microarray,255,2020/06/17,Microarray
+GSE143382,"Gene expression in cutaneous T cell lymphoma (CTCL), dermatitis (D), and healthy subjects (HS)",128,2020/06/16,Microarray
+GSE100150,A Transcriptome Fingerprinting Assay for Clinical Immune Monitoring,985,2020/06/16,Microarray
+GSE134589,IMMUNE LANDSCAPES PREDICT CHEMOTHERAPY RESISTANCE AND IMMUNOTHERAPY RESPONSE IN ACUTE MYELOID LEUKAEMIA,432,2020/06/03,Microarray
+GSE150615,Development of a gene expression-based prognostic signature for IDH wild-type glioblastoma,1079,2020/06/01,Microarray
+GSE150614,Development of a gene expression-based prognostic signature for IDH wild-type glioblastoma [UCLA],154,2020/06/01,Microarray
+GSE150612,Development of a gene expression-based prognostic signature for IDH wild-type glioblastoma [GLARIUS],123,2020/06/01,Microarray
+GSE150604,Development of a gene expression-based prognostic signature for IDH wild-type glioblastoma [AVAglio],339,2020/06/01,Microarray
+GSE149921,Development of a gene expression-based prognostic signature for IDH wild-type glioblastoma [ATE],463,2020/06/01,Microarray
+GSE146814,Gene expression profiling of Splenic Marginal Zone Lymphoma,65,2020/05/28,Microarray
+GSE136037,Gene-expression profiles of primary and metastatic lesions in head and neck squamous cell carcinoma,72,2020/05/21,Microarray
+GSE144521,RNA profiles in serum and urine extracellular vesicles of patients with cholangiocarcinoma mimicking tumor expression: novel liquid biopsy approach,96,2020/05/18,Microarray
+GSE142108,Identification of differentially expressed genes in actinic keratosis samples treated with ingenol mebutate gel,60,2020/05/18,Microarray
+GSE150404,Expression data from patients with different stages of clear cell renal cell carcinoma,60,2020/05/13,Microarray
+GSE67269,Integrative analysis of miRNAs and matched gene expression in ESCC,452,2020/05/12,Microarray
+GSE44021,Intergrated analysis of array-miRNAs and matched Affymetrix gene,226,2020/05/12,Microarray
+GSE108277,Gene Expression profile of Cetuximab response in Colorectal Cancer Derived Xenograft,120,2020/05/06,Microarray
+GSE148944,Characterization of the immune profile of oral tongue squamous cell carcinomas with advancing disease,67,2020/05/01,Microarray
+GSE144235,Incorporation of In Vitro Techniques for Botanicals Dietary Supplement Safety Assessment – Towards evaluation of Developmental and Reproductive Toxicity (DART),228,2020/05/01,Microarray
+GSE38174,"A Study of the Gene Expression of Colorectal Liver Metastases: Tumour, ‘Halo’ and Liver Parenchyma",96,2020/05/01,Microarray
+GSE143985,Clinical significance of gene signature generated from the grade of tumor budding in colorectal cancer,91,2020/04/24,Microarray
+GSE146361,Gene expression profiling of 27 gastric cancer cell lines,108,2020/04/22,Microarray
+GSE136644,POL and Z1031 Gene Expression_Final,603,2020/04/13,Microarray
+GSE141479,Combination of host immune metabolic biomarkers for the PD-1 blockade cancer immunotherapy,74,2020/04/07,Microarray
+GSE147271,Gene expression of primary breast cancers from patients before and after neo-adjuvant Tamoxifen treatment,102,2020/04/06,Microarray
+GSE138081,"Identification of deregulated pathways, key regulators, and novel miRNA-mRNA interactions in HPV-mediated transformation.",131,2020/04/06,Microarray
+GSE138079,"Identification of deregulated pathways, key regulators, and novel miRNA-mRNA interactions in HPV-mediated transformation. [mRNA cell lines-Agilent]",64,2020/04/06,Microarray
+GSE137140,Blood test using serum microRNAs can discriminate lung cancer from non-cancer,3924,2020/03/30,Microarray
+GSE133513,Sputum and blood transcriptomics characterization of the PDE4 inhibitor CHF6001 in COPD,495,2020/03/30,Microarray
+GSE147571,Classification by a gene expression profile can help to select oxaliplatin- or irinotecan-based regimen for first-line treatment of metastatic colorectal cancer: Translational research of the TRICOLORE study,308,2020/03/27,Microarray
+GSE132219,Epigenetic footprint of hepatoblastoma defines a novel integrative molecular classification with clinical implications,206,2020/03/23,Microarray
+GSE132037,Epigenetic footprint of hepatoblastoma defines a novel integrative molecular classification with clinical implications [HTA-2_0],52,2020/03/23,Microarray
+GSE132305,Molecular classification and therapeutic targets in extrahepatic cholangiocarcinoma,220,2020/03/22,Microarray
+GSE147125,Profiling of the immune microenvironment in FL [PanCancer Immune Profiling],54,2020/03/18,Microarray
+GSE135565,Gene expression profiles of the standardized uptake value in 18F-fluorodeoxyglucose positron emission tomography in tripple negative breast cancer,84,2020/03/18,Microarray
+GSE131769,Genomic signature of the standardized uptake value in 18F-fluorodeoxyglucose positron emission tomography in breast cancer,301,2020/03/18,Microarray
+GSE147033,Profiling of the immune microenvironment in FL,104,2020/03/17,Microarray
+GSE144901,CLL intraclonal fractions exhibit established and recently-acquired patterns of DNA methylation,238,2020/03/16,Microarray
+GSE144896,CLL intraclonal fractions exhibit established and recently-acquired patterns of DNA methylation [GE],118,2020/03/16,Microarray
+GSE130823,Dissecting Expression Profiles of Gastric Precancerous Lesions and Early Gastric Cancer to Explore Crucial Molecules in Intestinal-type Gastric Cancer Tumorigenesis,94,2020/03/15,Microarray
+GSE146965,Unraveling Tumor-Immune Heterogeneity in Advanced Ovarian Cancer Uncovers Immunogenic Effect of Chemotherapy,94,2020/03/14,Microarray
+GSE146963,Unraveling Tumor-Immune Heterogeneity in Advanced Ovarian Cancer Uncovers Immunogenic Effect of Chemotherapy [Pre&Post-Tx],56,2020/03/14,Microarray
+GSE146556,Global DNA hypomethylation in ovarian cancer,139,2020/03/06,Microarray
+GSE146553,Global DNA hypomethylation in ovarian cancer (Affymetrix_expression_data),55,2020/03/06,Microarray
+GSE126308,Biomarkers in older ovarian cancer patients,50,2020/03/01,Microarray
+GSE67224,Molecular characterization of ovarian serous cystadenomas and fibromas,67,2020/03/01,Microarray
+GSE126870,Impact of aromatase inhibitor treatment on global gene expression and its association with antiproliferative response in ER+ breast cancer in postmenopausal patients,178,2020/02/24,Microarray
+GSE145733,Gene expression profiling of long noncoding RNAs in myelodysplastic syndromes,77,2020/02/22,Microarray
+GSE131051,"Purity Independent Subtyping of Tumors (PurIST), a clinically robust single sample classifier for tumor subtyping in pancreatic cancer (NanoString)",58,2020/02/21,Microarray
+GSE131049,"Purity Independent Subtyping of Tumors (PurIST), a clinically robust single sample classifier for tumor subtyping in pancreatic cancer",249,2020/02/21,Microarray
+GSE112099,Discovery and validation of urinary molecular signature of early sepsis (discovery cohort),177,2020/02/20,Microarray
+GSE112098,Discovery and validation of urinary molecular signature of early sepsis (validation cohort),73,2020/02/20,Microarray
+GSE143626,Deregulation of ribosomal protein expression and translation promotes breast cancer metastasis,344,2020/02/07,Microarray
+GSE108712,Validation of a gene signature in histologically normal surgical margins predictive of oral squamous cell carcinoma recurrence,575,2020/02/07,Microarray
+GSE144803,Global expression analysis of primary endothelial cells before and after TNFa stimulation,78,2020/02/06,Microarray
+GSE138650,Novel autophagy inhibitor Lys05 enhances impact of ionizing radiation on human lung cancer cells H1299,54,2020/02/04,Microarray
+GSE141801,Contribution of mTOR and PTEN to Radioresistance in Sporadic and NF2-Associated Vestibular Schwannomas: A Microarray and Pathway Analysis.,74,2020/01/24,Microarray
+GSE138118,Expression profile of Urothelial carcinoma of the urinary bladder (UCB) or bladder cancer from Blood,75,2020/01/24,Microarray
+GSE125364,Multiple myeloma,96,2020/01/24,Microarray
+GSE128959,Molecular changes during progression from early stage to advanced urothelial carcinoma,200,2020/01/20,Microarray
+GSE143222,Prediction of prognostic signatures in triple-negative breast cancer based on the differential expression analysis via NanoString nCounter immune panel,55,2020/01/08,Microarray
+GSE124534,Fat_challenge_tests,81,2020/01/01,Microarray
+GSE142700,Co-expression of microrna and mrna in cytogenetically normal acute myeloid leukemia patients,96,2019/12/30,Microarray
+GSE124637,"The effect of intermittent versus continuous low dose aspirin on nasal epithelium gene expression in current smokers: a randomized, double-blinded clinical study",109,2019/12/24,Microarray
+GSE121932,Epigenomics and transcriptome analysis of ESCC,155,2019/12/20,Microarray
+GSE121931,Transcriptome analysis of 125 ESCC samples,125,2019/12/20,Microarray
+GSE124267,Transcriptomic Changes in the Nasal Epithelium Associated with Diesel Engine Exhaust Exposure,79,2019/12/19,Microarray
+GSE142102,Whole genome expression profiling of triple negative breast tumors in 226 African American women,226,2019/12/17,Microarray
+GSE135511,Gene expression profiling of multiple sclerosis brain samples,50,2019/12/17,Microarray
+GSE131184,Transcriptomic analysis of Acute Myeloid Leukemia and T Acute Lymphoblastic Leukemia,125,2019/12/09,Microarray
+GSE62931,Baseline expression profiles of human breast carcinomas,100,2019/12/09,Microarray
+GSE141551,Genome-wide gene expression profiles of primary prostate cancer,503,2019/12/06,Microarray
+GSE136755,Driver gene alterations and activated signaling pathways toward malignant progression of gastrointestinal stromal tumors,65,2019/12/04,Microarray
+GSE128294,Large B-Cell Lymphomas in Pediatric and Young Adults Display Clinically Relevant Molecular Features Distinguishable from Adult Counterparts,79,2019/11/28,Microarray
+GSE110410,Microarrays after exposure in Caco-2 cells to titanium dioxide food additive E171 and titanium dioxide nanoparticles and microparticles,76,2019/11/22,Microarray
+GSE140489,STING-dependent paracriny shapes apoptotic priming of breast tumors in response to anti-mitotic treatment,60,2019/11/21,Microarray
+GSE128884,Altered chromatin remodeling by FOXA1 mutations promotes androgen independence and prostate cancer aggressiveness,54,2019/11/21,Microarray
+GSE140082,Bevacizumab may differentially improve ovarian cancer outcome in patients with proliferative and mesenchymal molecular subtypes,380,2019/11/08,Microarray
+GSE135519,Gene and miRNA expression profiling in pediatric and adolescent and young adult rhabdomyosarcomas,127,2019/11/05,Microarray
+GSE135517,Gene expression profiling in pediatric and adolescent and young adult rhabdomyosarcomas,63,2019/11/05,Microarray
+GSE139255,A Nine-gene Signature for Predicting the Response to Preoperative Chemoradiotherapy in Patients with Locally Advanced Rectal Cancer,156,2019/10/23,Microarray
+GSE137481,Epithelial Tumour Suppressor ELF3 is a Lineage-Specific Amplified Oncogene in Lung Adenocarcinoma,326,2019/10/23,Microarray
+GSE139038,"Gene expression profiling in paired normal, apparently normal and breast tumour tissues",65,2019/10/18,Microarray
+GSE98708,Expression profiling of frozen primary and patient derived xenograft gastric cancer,102,2019/10/15,Microarray
+GSE123352,"Transcriptome of non-involved lung parenchyma from ever and never smoker lung adenocarcinoma patients from Milan, Italy.",176,2019/10/01,Microarray
+GSE132348,A gene expression-based model to predict metabolic response after two courses of ABVD in patients with classical Hodgkin Lymphoma,106,2019/09/26,Microarray
+GSE119295,Comprehensive transcriptomic profiling of breast cancer patients in SweBCG 91-RT,765,2019/09/26,Microarray
+GSE37021,Gene expression profiling in Acute Myeloid Leukemia (AML),97,2019/09/20,Microarray
+GSE132550,Peripheral T-cell Lymphoma gene expression profiling,90,2019/09/19,Microarray
+GSE134511,Integrative genomic analysis identifies key pathogenic mechanisms in primary mediastinal large B-cell lymphoma,120,2019/09/18,Microarray
+GSE87070,Autophagy driving ETV6-RUNX1 positive leukaemia,654,2019/09/16,Microarray
+GSE137356,Validation of the DNA Damage Immune Response (DDIR) Signature in Triple-Negative Breast Cancer (TNBC) Patients from the SWOG 9313c Trial,394,2019/09/13,Microarray
+GSE106191,Transcriptome analysis by expression microarrays of endometrial cancer derived from the Cancer Institute Hospital of Japanese Foundation for Cancer Research.,97,2019/09/13,Microarray
+GSE100179,"Human Transcriptome Array 2.0 (HTA) from healthy colonic, colorectal adenoma and colorectal cancer tissue",60,2019/09/13,Microarray
+GSE136971,Expression data and Copy Number Variations from Diffuse Large B Cell Lymphoma (DLBCL) patients,448,2019/09/05,Microarray
+GSE116959,Transcriptome profiling of 57 LUAD samples and 11 peritumoral normal lung tissues,68,2019/09/04,Microarray
+GSE117049,The nuclear hypoxia-regulated NLUCAT1 long non-coding RNA contributes to an aggressive phenotype in lung adenocarcinoma through regulation of oxidative stress,88,2019/09/03,Microarray
+GSE136400,Identifying a high-risk cellular signature in the multiple myeloma bone marrow microenvironment,1424,2019/08/31,Microarray
+GSE136398,Identifying a high-risk cellular signature in the multiple myeloma bone marrow microenvironment_3,131,2019/08/31,Microarray
+GSE136337,Identifying a high-risk cellular signature in the multiple myeloma bone marrow microenvironment_2,426,2019/08/31,Microarray
+GSE136324,Identifying a high-risk cellular signature in the multiple myeloma bone marrow microenvironment_1,867,2019/08/31,Microarray
+GSE136439,TNF-a induced gene expression in epithelial cell lines,94,2019/08/28,Microarray
+GSE122078,The Molecular Landscape of ETMR at Diagnosis and Relapse,245,2019/08/26,Microarray
+GSE119043,Thermo Fisher Scientific OncoScan expression array data for undifferentiated uterine sarcomas,90,2019/08/23,Microarray
+GSE119041,Thermo Fisher Scientific OncoScan expression array data for undifferentiated uterine sarcomas (expression),50,2019/08/23,Microarray
+GSE103084,TAE sensitive and resistant Kelly cells,118,2019/08/07,Microarray
+GSE118408,Grainyhead-like 2 (GRHL2) and epigenetic remodeling in the intermediate states of epithelial-mesenchymal transition,166,2019/08/06,Microarray
+GSE118171,Grainyhead-like 2 (GRHL2) and epigenetic remodeling in the intermediate states of epithelial-mesenchymal transition [ExpressionArray],58,2019/08/06,Microarray
+GSE124679,Integrated miRNA and mRNA expression analysis uncovers drug targets in squamous cell carcinoma patients,72,2019/07/31,Microarray
+GSE122372,Dualism of FGF and TGFb signaling in activation of heterogeneous cancer-associated fibroblast populations converging on cancer development,91,2019/07/31,Microarray
+GSE116325,Gene expression profiles proton-induced in brest cell lines,54,2019/07/29,Microarray
+GSE134783,Adverse prognosis of glioblastoma contacting the subventricular zone: biological correlates,71,2019/07/25,Microarray
+GSE88794,Transcriptome as marker for nutrition-related health: added value of time course analyses during challenge tests before and after energy restriction,1231,2019/07/23,Microarray
+GSE134381,"Metabolomics, Transcriptomic and Genetic - Integrative Analysis Reveals Important Roles of Adenosine Diphosphate in Haemostasis and Platelet Activation in Non-Small Cell Lung Cancer",74,2019/07/17,Microarray
+GSE114869,Long non-coding RNA HOXB-AS3 promotes myeloid cell proliferation and its higher expression is an adverse prognostic marker in myeloid malignancies [MDS_normal],320,2019/07/16,Microarray
+GSE114868,Long non-coding RNA HOXB-AS3 promotes myeloid cell proliferation and its higher expression is an adverse prognostic marker in myeloid malignancies [AML_normal],214,2019/07/16,Microarray
+GSE102451,Trunk events present minimal intra- and inter-tumoral heterogeneity in hepatocellular carcinoma [sHCC2],59,2019/07/05,Microarray
+GSE102383,Trunk events present minimal intra- and inter-tumoral heterogeneity in hepatocellular carcinoma [sHCC1],69,2019/07/05,Microarray
+GSE98620,Trunk events present minimal intra- and inter-tumoral heterogeneity in hepatocellular carcinoma,315,2019/07/05,Microarray
+GSE109057,Transcriptome analysis by expression microarrays of rectal cancer derived from the Cancer Institute Hospital of Japanese Foundation for Cancer Research,91,2019/07/02,Microarray
+GSE107299,The Proteogenomic Landscape of Curable Prostate Cancer [microarray],213,2019/06/30,Microarray
+GSE122586,Immune microenvironments differ in immune characteristics and outcome of glioblastoma multiforme,89,2019/06/20,Microarray
+GSE132929,Gene expression profiles with matched NGS in B-cell non-Hodgkin lymphoma,290,2019/06/19,Microarray
+GSE116294,Deregulated high expression of NEAT1 lncRNA in multiple myeloma is unrelated to molecular features and clinical outcome,69,2019/06/18,Microarray
+GSE123553,Expression data of butyrate stimulated epithelial organoid cultures generated from intestinal mucosa,95,2019/06/12,Microarray
+GSE129560,Study to compare SET ER/PR index values from Affymetrix U133A microarrays to values from targeted RNASeq and to validate technical reproducibility on U133A microarrays,128,2019/05/30,Microarray
+GSE129559,Study to evaluate the effect of the type of tissue on gene expression measurements,232,2019/05/30,Microarray
+GSE129558,Study to evaluate the effect of technical repetition on gene expression measurements,120,2019/05/30,Microarray
+GSE129557,Study to evaluate the effect of intratumoral heterogeneity on gene expression measurements,153,2019/05/30,Microarray
+GSE129556,Study for evaluating the effect of different microarray platforms on gene expression measurements,176,2019/05/30,Microarray
+GSE129551,Discovery cohort for SET ER/PR,147,2019/05/30,Microarray
+GSE124648,SET ER/PR - A robust 18-gene Predictor for Sensitivity to Endocrine Therapy for Metastatic Breast Cancer,1196,2019/05/30,Microarray
+GSE124647,SET ER/PR - A robust 18-gene Predictor for Sensitivity to Endocrine Therapy for Metastatic Breast Cancer,140,2019/05/30,Microarray
+GSE124646,Breast cancer and normal breast tissue samples to estimate the effect of contamination of breast cancer samples with normal breast tissue,100,2019/05/30,Microarray
+GSE131837,Gene expression profiles of non-recurrent human glioblastoma tissues,52,2019/05/29,Microarray
+GSE130404,Gene expression signature that predicts early molecular response failure in chronic phase CML patients on frontline imatinib,96,2019/05/29,Microarray
+GSE107367,"Expression data of human CD19pos B lymphocytes (B) and CD19negCD22neg non-B cells (ENV) from non tumoral reactive lymph nodes (RLN), tonsils (TONS) or follicular lymphoma (FL)",59,2019/05/27,Microarray
+GSE83937,Identification of three subtypes of triple negative breast cancer with potential therapeutic implications,131,2019/05/26,Microarray
+GSE131465,Individual Assignment of Adult Diffuse Gliomas into the EM/PM Molecular Subtypes,255,2019/05/21,Microarray
+GSE131418,Characterizing transcriptomic differences between between primary colorectal adenocarcinomas and distant metastases reveals subtypes of metastatic colorectal cancer,1135,2019/05/18,Microarray
+GSE131329,Expression data from hepatoblastoma tissues,67,2019/05/17,Microarray
+GSE114734,Hypoxia Inducible Factor 1 Confers Androgen Independence in Prostate Cancer,54,2019/05/15,Microarray
+GSE131027,High frequency of pathogenic germline variants in genes associated with homologous recombination repair in patients with advanced solid cancers,92,2019/05/11,Microarray
+GSE130788,"A Phase II Randomized Trial of Neoadjuvant Trastuzumab or Lapatinib or the Combination of Trastuzumab and Lapatinib, Followed by Docetaxel and Carboplatin with Trastuzumab and/or Lapatinib in Patients with HER2+ Breast Cancer",199,2019/05/08,Microarray
+GSE130787,"A Phase II Randomized Trial of Neoadjuvant Trastuzumab or Lapatinib or the Combination of Trastuzumab and Lapatinib, Followed by Docetaxel and Carboplatin with Trastuzumab and/or Lapatinib in Patients with HER2+ Breast Cancer [treatments]",89,2019/05/08,Microarray
+GSE130786,"A Phase II Randomized Trial of Neoadjuvant Trastuzumab or Lapatinib or the Combination of Trastuzumab and Lapatinib, Followed by Docetaxel and Carboplatin with Trastuzumab and/or Lapatinib in Patients with HER2+ Breast Cancer [Baseline]",110,2019/05/08,Microarray
+GSE128192,Dysregulation of EMT Drives the Progression to Clinically Aggressive Sarcomatoid Bladder Cancer,112,2019/05/07,Microarray
+GSE127472,High-throughput tissue dissection and cell purification with digital cytometry,315,2019/05/06,Microarray
+GSE127462,High-throughput tissue dissection and cell purification with digital cytometry [Affymetrix],302,2019/05/06,Microarray
+GSE130645,Unlocking the transcriptomic potential of formalin-fixed paraffin embedded clinical tissues: Comparison of gene expression profiling approaches,121,2019/05/03,Microarray
+GSE113282,Comprehensive Characterization of the Tumor Immune Micromilieu and its Interference with Outcome After Concurrent Chemoradiation in Patients with Locally Advanced Oropharyngeal Carcinomas,100,2019/05/02,Microarray
+GSE68308,Gene expression profiling of follicular lymphoma and tonsils,118,2019/04/20,Microarray
+GSE68092,Gene expression profiling of B-cell and non-B-cell fractions of follicular lymphoma,94,2019/04/20,Microarray
+GSE117090,CD8+ T cells expand stem and progenitor cells in favorable but not adverse risk acute myeloid leukemia,109,2019/04/04,Microarray
+GSE128702,Molecular characterizaion of neuroendocrine-like bladder cancer,256,2019/03/23,Microarray
+GSE128701,Impact of Immune and Stromal Infiltration on Outcomes Following Bladder-Sparing Trimodality Therapy for Muscle-Invasive Bladder Cancer,136,2019/03/23,Microarray
+GSE120242,Global gene expression of histologically normal primary skin cells from BCNS subjects reveals “single-hit” effects that are influenced by rapamycin,102,2019/03/20,Microarray
+GSE128449,Differences in expression profiling between tumoral colorectal carcinomas subsets and normal tissue and polyps,84,2019/03/19,Microarray
+GSE128435,Differences in expression profiling between tumoral colorectal carcinomas subsets and normal tissue and polyps [mRNA],58,2019/03/19,Microarray
+GSE112825,Genomic signature of parity in the breast of premenopausal women,109,2019/03/19,Microarray
+GSE107850,Expression based Intrinsic Glioma Subtypes are prognostic in low grade gliomas of the EORTC22033-26033 clinical trial.,195,2019/03/19,Microarray
+GSE112408,microRNA and geneexpression profiles in organoids derived from biliary tract carcinomas,50,2019/03/15,Microarray
+GSE101651,A Low-cost Multiplex Biomarker Assay Stratifies Colorectal Cancer Patient Samples into Clinically-relevant Subtypes,159,2019/03/04,Microarray
+GSE101481,A Low-Cost Multiplex Biomarker Assay Stratifies Colorectal Cancer Patient Samples into Clinically-Relevant Subtypes: Elements Chemistry,91,2019/03/04,Microarray
+GSE111395,Oncogenic drivers in 11q13 associated with prognosis in advanced oropharyngeal carcinomas,66,2019/03/03,Microarray
+GSE96669,Distinction of junctional cancers of gastric and oesophageal origin (DJANGO),132,2019/03/01,Microarray
+GSE96668,"Distinction of junctional cancers of gastric and oesophageal origin (DJANGO), batch#2",60,2019/03/01,Microarray
+GSE96667,"Distinction of junctional cancers of gastric and oesophageal origin (DJANGO), batch#1",72,2019/03/01,Microarray
+GSE118972,Defining UHRF1 Domains That Support Maintenance of Human Colon Cancer DNA Methylation and Oncogenic Properties,50,2019/02/28,Microarray
+GSE117366,New and subgroup-specific miRNAs and miRNA-offset RNA unraveled by RNA-sequencing in multiple myeloma,60,2019/02/27,Microarray
+GSE124438,Transcriptomic Profiling of Circulating Tumor Cells in Multiple Myeloma: A New Model to Understand Disease Dissemination,74,2019/02/26,Microarray
+GSE99573,Clinical Performance of a Stool RNA Assay for Early Detection of Precancerous Adenomas and Colorectal Cancer,338,2019/02/25,Microarray
+GSE88715,Gene expression profiles of microdissected tumor epithelium and stroma from TN breast tumors,76,2019/02/22,Microarray
+GSE119214,Clinicogenetic Risk Prognostication for First-Line Treatment of Symptomatic Follicular Lymphoma,137,2019/02/19,Microarray
+GSE66222,Molecular analysis of gastric cancer identifies discrete subtypes associated with distinct clinical characteristics and survival outcomes: the ACRG (Asian Cancer Research Group) study [normal tissue],100,2019/02/15,Microarray
+GSE112154,Gene expression profiling of diffuse malignant peritoneal mesothelioma,50,2019/02/07,Microarray
+GSE126095,Hsa_circ_101555 functions as a competing endogenous RNA of miR-597-5p to promote colorectal cancer progression,60,2019/02/06,Microarray
+GSE126053,Integrative Genomics Reveals Mechanisms of Copy Number Alterations Responsible for Transcriptional Deregulation in Colorectal Cancer,50,2019/02/05,Microarray
+GSE114403,Immune profiling of pre- and post-treatment breast cancer tissues from the SOWG S0800 randomized neoadjuvant trail of weekly nab-paclitaxel with or without bevacizumab and dose dense doxorubicin and cyclophosphamide,100,2019/02/01,Microarray
+GSE125915,Expression analysis of cancer of unknown primary (CUP),134,2019/01/31,Microarray
+GSE125908,Expression analysis of cancer of unknown primary (CUP) 2,74,2019/01/31,Microarray
+GSE94670,PQR309 is a novel dual PI3K/mTOR inhibitor with antitumor pre-clinical activity in lymphomas as single agent and in combination,84,2019/01/24,Microarray
+GSE115313,"Transcriptomics analysis of paired tumor and normal mucosa samples in a cohort of patients with colon cancer, with and without T2DM.",84,2019/01/16,Microarray
+GSE117556,Molecular definition of high grade B cell lymphoma: a centroblast-like group with potential for more effective therapy,928,2019/01/15,Microarray
+GSE43615,IRCC Breast Cancer dataset,86,2019/01/08,Microarray
+GSE111563,Gene expression analysis of breast tumours from dormant and acquired resistant patients,101,2019/01/05,Microarray
+GSE112791,Comprehensive molecular characterization of liver cancer and inheritance of the phenotypic traits during tumor recurrence,329,2019/01/03,Microarray
+GSE112790,Comprehensive molecular characterization of liver cancer and inheritance of the phenotypic traits during tumor recurrence [tissue],198,2019/01/03,Microarray
+GSE108010,CYTOGENETIC AND TRANSCRIPTOME PROFILING ANALYSIS OF MATCHED IN SITU/INVASIVE CUTANEOUS SQUAMOUS CELL CARCINOMAS FROM IMMUNOCOMPETENT PATIENTS,70,2019/01/03,Microarray
+GSE80765,Stem cell gene expression profiling of primary mammary tumors derived from orthotopic xenograft tumors treated with Sulforaphane (SFN) or control,72,2019/01/03,Microarray
+GSE124305,Divergent biological response to neoadjuvant chemotherapy in muscle-invasive bladder cancer,133,2019/01/01,Microarray
+GSE108124,"Deciphering the genomic, epigenomic and transcriptomic landscapes of pre-invasive lung cancer lesions to determine prognosis",138,2019/01/01,Microarray
+GSE110225,Expression data from 30 patients with colorectal cancer,60,2018/12/31,Microarray
+GSE57721,Expression profiling of MAPK inhibition in WM266-4 BRAF V600D mutant melanoma cell line,54,2018/12/31,Microarray
+GSE117261,Systems Analysis of the Human Pulmonary Arterial Hypertension Lung Transcriptome,83,2018/12/23,Microarray
+GSE111678,RET-mediated autophagy suppression as targetable co-dependence in acute myeloid leukemia,260,2018/12/21,Microarray
+GSE45712,Peripheral T-cell lymphomas not otherwise specified correspond to distinct mature T-cell populations based on the global gene expression profile,117,2018/12/21,Microarray
+GSE108375,Whole blood gene expression can distinguish benign from malignant lung nodules transitioning from microarrays to a nanostring platform,315,2018/12/20,Microarray
+GSE118744,Identification of Jun loss that promotes resistance to HDAC inhibitor Entinostat through Myc signaling in Luminal breast cancer,71,2018/12/10,Microarray
+GSE117607,Gene expression data of 135 patients presenting colorectal adenoma,135,2018/12/01,Microarray
+GSE117606,"Gene expression data of patients presenting with concurrent colorectal adenomas and colorectal tumors, including adjacent tissue to the tumor",208,2018/12/01,Microarray
+GSE106582,ColoCare Project: Gene expression analysis in colorectal cancer and adjacent mucosa tissues,194,2018/12/01,Microarray
+GSE123075,lncRNA and mRNA Expression Profiling in Early Stage UM CLL,63,2018/11/29,Microarray
+GSE99208,The BET Bromodomain Inhibitor OTX015/MK-8628 modulates microRNA expression in Diffuse Large B-Cell Lymphoma,96,2018/11/21,Microarray
+GSE107990,"Gene expression profiles associated with humoral response to influenza vaccine, Vaxigrip, in young and elderly subjects of Chinese ethnicity in Singapore",671,2018/11/14,Microarray
+GSE119269,MicroRNA and mRNA regulatory network in EGFR-mutated lung adenocarcinoma,310,2018/11/13,Microarray
+GSE119267,MicroRNA and mRNA regulatory network in EGFR-mutated lung adenocarcinoma [mRNA],155,2018/11/13,Microarray
+GSE115458,Role of PAEP/glycodelin in NSCLC,100,2018/11/12,Microarray
+GSE115457,Gene expression profiling of NSCLC tumors with high and low PAEP expression,70,2018/11/12,Microarray
+GSE122231,"SWOG 0120, A Prospective Observational Biologic Study of Asymptomatic Patients With Monoclonal Gammopathy and Plasma Proliferative Disorders",216,2018/11/07,Microarray
+GSE121723,Glioblastoma epigenome profiling identifies SOX10 as a master regulator of molecular tumour subtype,364,2018/11/05,Microarray
+GSE94104,Transcriptional analysis of locally advanced rectal cancer pre-therapeutic biopsies and post-therapeutic resections,80,2018/11/01,Microarray
+GSE119289,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA207],380,2018/10/31,Microarray
+GSE119288,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA206],380,2018/10/31,Microarray
+GSE119287,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA205],380,2018/10/31,Microarray
+GSE119286,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA204],380,2018/10/31,Microarray
+GSE119285,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA203],380,2018/10/31,Microarray
+GSE119284,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA202],378,2018/10/31,Microarray
+GSE119283,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA201],378,2018/10/31,Microarray
+GSE119282,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA108],377,2018/10/31,Microarray
+GSE119281,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA107],378,2018/10/31,Microarray
+GSE119280,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA106],378,2018/10/31,Microarray
+GSE119279,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA105],377,2018/10/31,Microarray
+GSE119278,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA104],378,2018/10/31,Microarray
+GSE119277,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA103],377,2018/10/31,Microarray
+GSE119276,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA102],379,2018/10/31,Microarray
+GSE119275,Expression-based drug screening of neural progenitor cells from individuals with schizophrenia [MSA101],374,2018/10/31,Microarray
+GSE120572,A mechanistic classification of clinical phenotypes in neuroblastoma,394,2018/10/25,Microarray
+GSE120568,A mechanistic classification of clinical phenotypes in neuroblastoma (TERT expression threshold cohort),186,2018/10/25,Microarray
+GSE120559,A mechanistic classification of clinical phenotypes in neuroblastoma (telomere maintenance cohort),208,2018/10/25,Microarray
+GSE99996,A biobank of 30 molecularly characterized patient-derived xeongraft models of pediatric brain tumors,137,2018/10/25,Microarray
+GSE99961,A biobank of 30 molecularly characterized patient-derived xeongraft models of pediatric brain tumors [Affymetrix],55,2018/10/25,Microarray
+GSE118003,Expression profiling and DNA methylation of TNBCs,80,2018/10/22,Microarray
+GSE117579,Expression profiling of TNBCs following atRA treatment [Affymetrix I],72,2018/10/22,Microarray
+GSE115635,Systematic Identification of Epithelial–Stromal Crosstalk Signaling Networks in Ovarian Cancer,96,2018/10/22,Microarray
+GSE105777,Major impact of sampling methodology on gene expression in estrogen receptor positive breast cancer,426,2018/10/22,Microarray
+GSE121248,Gene expression profiling of chronic hepatitis B induced HCC and adjacent-normal tissues,107,2018/10/16,Microarray
+GSE105288,Integrative Epigenetic and Gene Expression Analysis of Renal Tumor Progression to Metastasis,88,2018/10/16,Microarray
+GSE103340,Patient-derived xenograft model identifies clinically relevant subtype-specific features of colorectal cancer,71,2018/10/16,Microarray
+GSE116451,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (vorinostat)",528,2018/10/09,Microarray
+GSE116450,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (topotecan)",525,2018/10/09,Microarray
+GSE116449,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (sunitinib)",513,2018/10/09,Microarray
+GSE116448,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (sorafenib)",524,2018/10/09,Microarray
+GSE116447,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (sirolimus)",507,2018/10/09,Microarray
+GSE116446,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (paclitaxel)",538,2018/10/09,Microarray
+GSE116445,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (lapatinib)",485,2018/10/09,Microarray
+GSE116444,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (gemcitabine)",495,2018/10/09,Microarray
+GSE116443,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (geldanamycin)",496,2018/10/09,Microarray
+GSE116442,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (erlotinib)",536,2018/10/09,Microarray
+GSE116441,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (doxorubicin)",516,2018/10/09,Microarray
+GSE116440,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (dasatinib)",496,2018/10/09,Microarray
+GSE116439,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (cisplatin)",499,2018/10/09,Microarray
+GSE116438,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (bortezomib)",525,2018/10/09,Microarray
+GSE116437,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h (5-Azacytidine)",440,2018/10/09,Microarray
+GSE116436,"Drug-induced change in gene expression across NCI-60 cell lines after exposure to 15 anticancer agents for 2, 6 and 24h",7623,2018/10/09,Microarray
+GSE120736,Comprehensive molecular classification of bladder cancer reveals distinct prognostic subgroups with different sensitivities to immunotherapy,145,2018/10/03,Microarray
+GSE117853,Gene expression and methylation profile of Human non-functional Pancreatic neuroendocrine tumors (PanNETs),112,2018/10/01,Microarray
+GSE99636,Gene expression profiles of multiple myeloma plasma cell fractions from bone marrow,66,2018/09/27,Microarray
+GSE120129,A genomic ruler to assess oncogenic transition between breast tumor and stroma,108,2018/09/19,Microarray
+GSE119958,APOL1 renal-risk variants induce mitochondrial fission,100,2018/09/15,Microarray
+GSE119616,Expression data of candidates for prostate cancer active surveillance,266,2018/09/08,Microarray
+GSE104974,Comparison of RNA-seq and Microarray Platforms for Splice Event Detection using a Cross-Platform Algorithm,60,2018/09/05,Microarray
+GSE87049,Analysis of somatic DNA copy number alterations and frequency of breast cancer intrinsic subtypes from Mexican women,359,2018/08/31,Microarray
+GSE86946,Transcriptome characterization of triple negative breast cancer [Mexico],58,2018/08/31,Microarray
+GSE86945,Transcriptome characterization of triple negative breast cancer [Italy],100,2018/08/31,Microarray
+GSE86374,Analysis of somatic DNA copy number alterations and frequency of breast cancer intrinsic subtypes from Mexican women [gene expression],159,2018/08/31,Microarray
+GSE119262,Gene expression profiling of pre-operative mTOR inhibitor everolimus treatment in breast cancer,88,2018/08/30,Microarray
+GSE117056,Differential Genomic Effects of Six Different Nanomaterials on Human Liver HepG2 Cells,120,2018/08/28,Microarray
+GSE118985,The pattern of Mesenchymal stem cell expression is an independent marker of outcome in multiple myeloma,750,2018/08/24,Microarray
+GSE85916,Patients with human resected pancreatic cancer,80,2018/08/22,Microarray
+GSE118646,IL-1 receptor antagonist controls transcriptional signature of inflammation in patients with metastatic breast cancer,58,2018/08/21,Microarray
+GSE109211,Molecular predictors of prevention of recurrence in hepatocellular carcinoma with sorafenib as adjuvant treatment in the phase 3 STORM trial,140,2018/08/21,Microarray
+GSE112273,"Cobomarsen, an Oligonucleotide Inhibitor of miR-155, Coordinately Regulates Multiple Survival Pathways to Reduce Cellular Proliferation and Survival in Cutaneous T-Cell Lymphoma",56,2018/08/20,Microarray
+GSE94567,ORY-1001/RG6016 effect on leukemia cell lines,54,2018/08/19,Microarray
+GSE86948,A microRNA signature identifies four subtypes of triple-negative breast cancer and correlates miR-342-3p as a regulator of the lactate metabolic pathway through silencing the monocarboxylate transporter 1,329,2018/08/17,Microarray
+GSE112369,Gene expression data of organoids derived from human gastric tumor and normal stomach samples.,62,2018/08/14,Microarray
+GSE102807,ARID2 promotes clear cell renal cell carcinoma in the absence of functional PBRM1,58,2018/08/14,Microarray
+GSE100935,Gene expression data of human gastric tumors,66,2018/07/31,Microarray
+GSE96804,Exon Level Expression Profiling of Diabetic Nephropathy,61,2018/07/31,Microarray
+GSE117525,Expression of protocadherin gamma in skeletal muscle tissue is associated with age and muscle weakness,259,2018/07/24,Microarray
+GSE103944,"Gene Expression Profiling reveals a close relationship between Follicular lymphoma Grade 3A and 3B, but distinct profiles of Follicular Lymphoma Grade 1 and 2",84,2018/07/23,Microarray
+GSE117182,The miR-96 and RARG signaling axis governs androgen signaling and prostate cancer progression,84,2018/07/20,Microarray
+GSE116918,Using biopsies to improve risk stratification in patients with prostate cancer treated with radical radiation therapy,248,2018/07/12,Microarray
+GSE108062,Drug sensitivity screening and genomic characterization of 45 HPV-negative head and neck carcinoma cell lines for novel biomarkers of drug efficacy,90,2018/07/06,Microarray
+GSE85047,Gene expression data from primary neuroblastoma tumors,283,2018/07/02,Microarray
+GSE103746,Identification and validation of single sample breast cancer radiosensitivity gene expression predictors,508,2018/07/01,Microarray
+GSE103745,Identification and validation of single sample breast cancer radiosensitivity gene expression predictors [Nanostring custom assay data],336,2018/07/01,Microarray
+GSE103744,Identification and validation of single sample breast cancer radiosensitivity gene expression predictors [Illumina HT12 v4 data],172,2018/07/01,Microarray
+GSE105067,Integrative Epigenetic Analysis Reveals Therapeutic Targets to the DNA Methyltransferase Inhibitor SGI-110 in Hepatocellular Carcinoma Cells,68,2018/06/26,Microarray
+GSE97010,The Impact of Acute Exposure to Cigarette Smoke on Airway Gene Expression,126,2018/06/26,Microarray
+GSE116174,Gene expression profile in human hepatocellular carcinoma,64,2018/06/23,Microarray
+GSE114269,"Medullary breast carcinoma, a triple-negative breast cancer subtype associated with BCLG overexpression and BRCAness",107,2018/06/20,Microarray
+GSE114168,"Medullary breast carcinoma, a triple-negative breast cancer subtype associated with BCLG overexpression.",53,2018/06/20,Microarray
+GSE97689,Colorectal cancer initiation site,92,2018/06/18,Microarray
+GSE93527,Expression analysis of human stage Ta bladder tumours,79,2018/06/15,Microarray
+GSE57793,"Expression data from patients with Essential Thrombocythemia (ET), Polycythemia Vera (PV), Primary Myelofibrosis (PMF)",66,2018/06/15,Microarray
+GSE109403,Proteogenomic Analysis of Medulloblastoma,62,2018/06/14,Microarray
+GSE98780,The genomic landscape of cutaneous squamous cell carcinoma,108,2018/06/14,Microarray
+GSE98774,Investigation of potential tumour suppressor or tumour promoter roles in cutaneous squamous cell carcinoma progression,54,2018/06/14,Microarray
+GSE98767,Integration of genomic driver events and gene expression profiles in cutaneous squamous cell carcinoma,54,2018/06/14,Microarray
+GSE115611,Discovery of Selective Estrogen Receptor Covalent Antagonists (SERCAs) for the treatment of ERa(WT) and ERa(MUT) breast cancer.,85,2018/06/12,Microarray
+GSE108962,Radiation-induced GEPs in immortalized and primary breast cells,72,2018/06/06,Microarray
+GSE98699,NFkB signaling and ISGylation associated with BRCA1-mutated fallopian tube epithelium,72,2018/05/31,Microarray
+GSE108476,The REMBRANDT study – a large collection of genomic data from brain cancer patients,2056,2018/05/25,Microarray
+GSE108474,The REMBRANDT study – a large collection of genomic data from brain cancer patients [gene expression],550,2018/05/25,Microarray
+GSE99420,Gene Expression Signatures Prognostic for Relapse in Stage I Testicular Germ Cell Tumors (TGCT),60,2018/05/21,Microarray
+GSE114621,Exon level expression analysis from rhabdomyosarcoma patient tumors.,101,2018/05/18,Microarray
+GSE114489,"Altered Cell-Cycle Control, Inflammation and Adhesion in High-Risk Persistent Bronchial Dysplasia",63,2018/05/16,Microarray
+GSE104645,Consensus molecular subtypes classification of colorectal cancer as a predictive factor for chemotherapeutic efficacy against metastatic colorectal cancer,193,2018/05/08,Microarray
+GSE95298,Patient- and Cell Type-Specific Heterogeneity of Metformin Response.,58,2018/05/02,Microarray
+GSE98588,Genetically-defined Diffuse Large B-cell Lymphoma Subsets Arise by Distinct Pathogenetic Mechanisms and Predicts Outcome,137,2018/05/01,Microarray
+GSE109593,"BRD4 profiling identifies critical Chronic Lymphocytic Leukemia oncogenic circuits and reveals sensitivity to PLX51107, a novel structurally distinct BET inhibitor",58,2018/04/17,Microarray
+GSE68020,Identification of gene expression biomarkers in urine for the non-invasive detection of bladder cancer,50,2018/04/17,Microarray
+GSE107170,Molecular Signature of Hepatitis D Virus-Associated Hepatocellular Carcinoma,307,2018/04/09,Microarray
+GSE98383,Molecular Signature of Hepatitis D Virus-Associated Hepatocellular Carcinoma,74,2018/04/09,Microarray
+GSE111601,"Correlated metabolomic, genomic, and histologic phenotypes in histologically normal breast tissue",99,2018/04/05,Microarray
+GSE109710,Tumor infiltrating lymphocytes in patients receiving trastuzumab/pertuzumab-based chemotherapy: A TRYPHAENA substudy,173,2018/04/01,Microarray
+GSE85171,Epigenetic Reprogramming of mutant RAS-driven Rhabdomyosarcoma via MEK Inhibition,60,2018/04/01,Microarray
+GSE92921,Prognostic Model for Stage II/III Colon Cancer Based on Gene Expression Subtypes and KRAS Mutation Status,59,2018/03/30,Microarray
+GSE112447,"Gene expression analisys of GD2+ cells from metastatic NB, unselected bone marrow from metastatic NB, primary tumors from stage 4 NB (alive and dead at 5 years of follow-up) and primary tumor from localized NB",57,2018/03/29,Microarray
+GSE86260,Cancer Associated Fibroblasts are defined by a core set of epigenome changes that contribute to the tumor phenotype,52,2018/03/26,Microarray
+GSE100134,Gene expression analysis upon mtDNA depletion,108,2018/03/21,Microarray
+GSE84437,Molecular subtypes in gastric cancer.,483,2018/03/20,Microarray
+GSE84433,Molecular subtypes in gastric cancer. [II],357,2018/03/20,Microarray
+GSE84426,Molecular subtypes in gastric cancer. [I],76,2018/03/20,Microarray
+GSE111260,A multi-component view of the glioma transcriptome identifies unique immune infiltration patterns in primary glioblastomas and patients with inferior prognosis.,70,2018/03/01,Microarray
+GSE108089,Comprehensive molecular profiling of children with recurrent cancer,84,2018/03/01,Microarray
+GSE103237,Gene and miRNA expression profiles in Polycythemia Vera and Essential Thrombocythemia according to CALR and JAK2 mutations [GEP],65,2018/03/01,Microarray
+GSE103176,Gene and miRNA expression profiles in Polycythemia Vera and Essential Thrombocythemia according to CALR and JAK2 mutations,130,2018/03/01,Microarray
+GSE90741,Circular RNAs are super abundant in cervical tumor and plasma detected by high throughput microarray,55,2018/03/01,Microarray
+GSE78737,"Infection with Hepatitis C Virus Depends on TACSTD2, a Regulator of Claudin-1 and Occludin Highly Downregulated in Hepatocellular Carcinoma",107,2018/03/01,Microarray
+GSE69715,"Infection with Hepatitis C Virus Depends on TACSTD2, a Regulator of Claudin-1 and Occludin Highly Downregulated in Hepatocellular Carcinoma [patient]",103,2018/03/01,Microarray
+GSE109304,Efficacy of the highly selective focal adhesion kinase inhibitor BI 853520 in adenocarcinoma xenograft models is linked to a mesenchymal tumor phenotype,84,2018/02/27,Microarray
+GSE94557,Whole blood gene expression from lung transplanted patients with chronic lung allograft dysfunction,162,2018/02/23,Microarray
+GSE93261,Transcriptome analysis of Follicular Lymphomas from the PRIMABIO cohort,149,2018/02/19,Microarray
+GSE104549,Gene expression profile in node negative breast tumor,92,2018/02/16,Microarray
+GSE97221,Molecular changes in premenopausal estrogen receptor-positive primary breast cancer after oophorectomy,88,2018/02/14,Microarray
+GSE90699,Immuno-related transcripts in the microenvironment of biliary tract cancers,53,2018/02/14,Microarray
+GSE97064,Long noncoding RNA (lncRNA) expression data from human myelodysplastic syndromes (MDS) bone marrow mononuclear cells,206,2018/02/13,Microarray
+GSE90623,Generating a robust prediction model for stage I lung adenocarcinoma recurrence after surgical resection,211,2018/02/13,Microarray
+GSE79196,Gene expression profiling signatures allow the identification of unclassifiable leukemic B-cell lymphoid neoplasms,189,2018/02/13,Microarray
+GSE27531,Gene expression profiles in pairs of synchronous and metachronous bilateral breast tumors and primaries and their local recurrences,82,2018/02/13,Microarray
+GSE94669,61 lymphoma cell lines gene expression profiles,61,2018/02/09,Microarray
+GSE107610,Gene expression data of organoids derived from human pancreatic tumor and normal pancrea samples.,57,2018/02/08,Microarray
+GSE102765,Lipid addiction via Fatty Acid Synthase activates PI3K signaling in B cell non-Hodgkin’s Lymphoma (bNHL),57,2018/02/01,Microarray
+GSE80154,Enhancer invasion shapes MYCN dependent transcriptional amplification in neuroblastoma,144,2018/01/29,Microarray
+GSE102079,FABP4 overexpressed in intratumoral hepatic stellate cells within hepatocellular carcinoma with metabolic risk factors (part 1),257,2018/01/28,Microarray
+GSE65373,Molecular heterogeneity of multinodular hepatocellular carcinoma,117,2018/01/28,Microarray
+GSE65372,Molecular heterogeneity of multinodular hepatocellular carcinoma [gene expression],54,2018/01/28,Microarray
+GSE102083,FABP4 overexpressed in intratumoral hepatic stellate cells within hepatocellular carcinoma with metabolic risk factors,269,2018/01/27,Microarray
+GSE108055,Pathways impacted by genomic alterations in pulmonary carcinoid tumors,64,2018/01/26,Microarray
+GSE109021,Identification of Androgen Receptor Modulators in a Prostate Cancer Cell Line Microarray Compendium,96,2018/01/24,Microarray
+GSE104954,Tubulointerstitial transcriptome from ERCB subjects with chronic kidney disease and living donor biopsies.,195,2018/01/24,Microarray
+GSE104948,Glomerular Transcriptome from European Renal cDNA Bank subjects and living donors,196,2018/01/24,Microarray
+GSE107754,A novel genomic signature predicting FDG uptake in diverse metastatic tumors,84,2018/01/22,Microarray
+GSE109361,Integrative genomic analysis in HCC samples,80,2018/01/19,Microarray
+GSE109169,Expression data from breast cancer tissues and adjacent normal tissues,50,2018/01/13,Microarray
+GSE96528,Gene expression profiling of colorectal cancer tissue samples.,174,2018/01/02,Microarray
+GSE59409,Correlating Gene Signatures with Outcome to find Features and Drugs Relevant to Cancer,72,2018/01/01,Microarray
+GSE103479,Gene expression data from stage II and III treated and untreated colorectal cancer patients,156,2017/12/31,Microarray
+GSE89377,Identifying novel drivers of human hepatocellular carcinoma and revealing clinical relevance as early diagnostic and prognostic biomarker,107,2017/12/31,Microarray
+GSE86166,Evaluation of Invasive Breast Cancer Using a 12-Chemokine Gene Expression Score: Correlation With Clinical Outcomes,366,2017/12/31,Microarray
+GSE82233,Quality of reprogramming to induced pluripotency as a function of reprogramming method,65,2017/12/31,Microarray
+GSE18908,Breast tumor subtypes correlate with prognosis,111,2017/12/31,Microarray
+GSE104377,Greater transiency in modulation of gene expression is the predominant difference between the actions of bryostatin 1 and phorbol ester in LNCaP and U937 cells,87,2017/12/30,Microarray
+GSE108492,Molecular prediction of adjuvant cisplatin efficacy in Non-Small Cell Lung Cancer (NSCLC) - validation in two independent cohorts,95,2017/12/25,Microarray
+GSE103412,"Mucositis in patients with tonsil squamous cell carcinoma: gene expression profile of oral mucosa before, during, and after radiation therapy",64,2017/12/22,Microarray
+GSE108004,A machine learning approach to integrate big data for precision medicine in acute myeloid leukemia,54,2017/12/13,Microarray
+GSE100550,Consensus Molecular Subtypes of colorectal cancer are recapitulated in in vitro and in vivo models,106,2017/12/01,Microarray
+GSE100480,Consensus Molecular Subtypes of colorectal cancer are recapitulated in in vitro and in vivo models [patient tumors and PDX models],55,2017/12/01,Microarray
+GSE107513,The molecular basis of T-PLL is an actionable perturbation of TCL1/ATM- and epigenetically instructed damage responses,276,2017/11/30,Microarray
+GSE107397,The molecular basis of T-PLL is an actionable perturbation of TCL1/ATM- and epigenetically instructed damage responses [human gene expression array],140,2017/11/28,Microarray
+GSE87211,Colorectal cancer susceptibility loci as predictive markers of rectal cancer prognosis after surgery,363,2017/11/28,Microarray
+GSE90784,Molecular heterogeneity of NK/T-cell lymphoma,142,2017/11/25,Microarray
+GSE90597,Molecular heterogeneity of NK/T-cell lymphoma (expression),66,2017/11/25,Microarray
+GSE90713,Expression data from human metastatic adrenocortical carcinoma,63,2017/11/24,Microarray
+GSE106977,Triple negative breast cancer subtypes and pathologic complete response rate to neoadjuvant chemotherapy,119,2017/11/17,Microarray
+GSE100784,Role of Branched Chain Amino Acid Transaminase 1 (BCAT1) in Acute Myeloid Leukemia,56,2017/11/08,Microarray
+GSE103427,Profiling of the transcriptional response to all-trans retinoic acid in breast cancer cells reveals RARE-independent mechanisms of gene expression,72,2017/11/06,Microarray
+GSE72653,Mapping alterations spatially and temporally during early stages of breast tumourigenesis,72,2017/11/02,Microarray
+GSE90627,A distance-related model identified PDCD6IP as a local host protective factor in colorectal cancer,128,2017/11/01,Microarray
+GSE79330,Early-onset sporadic rectal cancer : Wnt- vs. Wnt+ rectal tumor,93,2017/10/30,Microarray
+GSE78250,Early-onset sporadic rectal cancer : Wnt- vs. Wnt+ rectal tumor [GE],51,2017/10/30,Microarray
+GSE106260,Immunopathology of childhood celiac disease-Key role of intestinal epithelial cells,52,2017/10/27,Microarray
