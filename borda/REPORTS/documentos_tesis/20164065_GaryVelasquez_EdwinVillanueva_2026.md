@@ -768,17 +768,11 @@ cobertura completa de la distribución.
 
 ## Modelos Generativos de Flujo (Flow Matching)
 
-A diferencia de los enfoques tradicionales como CTGAN o la generación
-mediante ruido gaussiano simple, el *Flow Matching* representa un
-paradigma determinista basado en Ecuaciones Diferenciales Ordinarias
-(EDO). Este enfoque construye un campo vectorial continuo que transforma
-gradualmente una distribución de ruido inicial hacia la distribución de
-datos empíricos. Matemáticamente, el modelo aprende la dinámica de este
-campo \$Y_t\$, permitiendo mapear trayectorias suaves entre el espacio
-latente y el espacio genómico estructurado. Esta arquitectura resulta
-superior para datos tabulares biológicos debido a su capacidad
-intrínseca para preservar correlaciones complejas (como las redes de
-coexpresión génica) sin colapsar en modas singulares.
+A diferencia de los enfoques tradicionales como CTGAN o la generación mediante ruido gaussiano simple, el *Flow Matching* representa un paradigma determinista basado en Ecuaciones Diferenciales Ordinarias (EDO). Este enfoque construye un campo vectorial continuo que transforma gradualmente una distribución de ruido inicial hacia la distribución de datos empíricos. Matemáticamente, el modelo aprende la dinámica de este campo $Y_t$, permitiendo mapear trayectorias suaves entre el espacio latente y el espacio genómico estructurado. Esta arquitectura resulta superior para datos tabulares biológicos debido a su capacidad intrínseca para preservar correlaciones complejas (como las redes de coexpresión génica) sin colapsar en modas singulares.
+
+## Forest Diffusion y Ecuaciones Diferenciales Ordinarias (EDO)
+
+*Forest Diffusion* es una implementación especializada de *Flow Matching* diseñada específicamente para sortear las ineficiencias computacionales de las redes neuronales profundas en conjuntos de datos tabulares y continuos. En lugar de utilizar arquitecturas densas (como perceptrones multicapa), emplea ensambles masivos de árboles de decisión (como *XGBoost*) para modelar el campo vectorial iterativo. La generación de un perfil transcriptómico sintético se logra mediante la Integración de Euler, un método numérico que resuelve la EDO iterando pasos discretos: $X_{t-1} = X_t - Y_t \cdot \Delta t$. Este ensamblaje iterativo resulta crucial para manejar el paradigma $p \gg n$ (alta dimensionalidad, bajo número de muestras) típico de la genómica.
 
 # Estado del Arte
 

@@ -1,9 +1,10 @@
-# Modelos pesados de Machine Learning (Evitar subir a Git)
+# Modelos pesados de Machine Learning
 *.joblib
 *.pkl
 *.model
 
 # Datasets pesados y logs redundantes
+*.parquet
 REPORTS/documentos_tesis/microarray-data/
 REPORTS/gene_frequency_report.csv
 REPORTS/harmonization_log.txt
