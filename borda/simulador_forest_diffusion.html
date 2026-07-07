@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Interactivo: Forest Diffusion & XGBoost Flow Matching</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #0b0d12;
+            --panel-bg: rgba(20, 24, 33, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --accent-real: #00f5d4; /* Cyan / Real */
+            --accent-noise: #ff007f; /* Magenta / Ruido */
+            --accent-tree: #7b2cbf; /* Púrpura / XGBoost */
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --glass-blur: blur(16px);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            color: var(--text-main);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(123, 44, 191, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(0, 245, 212, 0.1) 0px, transparent 50%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 2rem 4rem;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(11, 13, 18, 0.5);
+            backdrop-filter: var(--glass-blur);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-section h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            background: linear-gradient(90deg, var(--accent-real), #7b2cbf, var(--accent-noise));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo-section p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+        }
+
+        .badge-colab {
+            background: rgba(255, 165, 0, 0.1);
+            border: 1px solid rgba(255, 165, 0, 0.3);
+            color: #ffa500;
+            padding: 0.4rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .main-container {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 2rem;
+            padding: 2rem 4rem;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 1024px) {
+            .main-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            backdrop-filter: var(--glass-blur);
+            padding: 1.8rem;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .canvas-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .canvas-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .canvas-title span::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-real);
+            box-shadow: 0 0 8px var(--accent-real);
+        }
+
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1.3;
+            background: #07080c;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            overflow: hidden;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        /* Controles Panel Derecho */
+        .controls-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-left: 3px solid var(--accent-tree);
+            padding-left: 0.6rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .control-row {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .control-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .control-label span.val {
+            color: var(--accent-real);
+            font-weight: 600;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 999px;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent-real);
+            box-shadow: 0 0 10px var(--accent-real);
+            cursor: pointer;
+            transition: transform 0.1s ease;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        .btn-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-primary {
+            background: var(--accent-tree);
+            border-color: transparent;
+            box-shadow: 0 0 15px rgba(123, 44, 191, 0.4);
+        }
+
+        .btn-primary:hover {
+            background: #903cde;
+            box-shadow: 0 0 20px rgba(123, 44, 191, 0.6);
+        }
+
+        /* Visualizador de Árbol */
+        .tree-visualizer {
+            flex-grow: 1;
+            background: rgba(7, 8, 12, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            padding: 1rem;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Stats Panel */
+        .stats-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            padding: 0.8rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent-real);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 0.2rem;
+        }
+
+        /* Legend */
+        .legend-row {
+            display: flex;
+            gap: 1rem;
+            margin-top: 0.8rem;
+            font-size: 0.8rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .legend-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .desc-box {
+            margin-top: 1.5rem;
+            background: rgba(123, 44, 191, 0.05);
+            border: 1px solid rgba(123, 44, 191, 0.15);
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            line-height: 1.4;
+            color: #d8b4fe;
+        }
+
+        .desc-box strong {
+            color: #f3e8ff;
+        }
+
+        /* Estilos del Terminal de Logs */
+        #tree-training-logs {
+            border: 1px solid rgba(123, 44, 191, 0.3) !important;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8), 0 0 5px rgba(123, 44, 191, 0.15);
+        }
+        
+        #tree-training-logs::after {
+            content: ' █';
+            animation: blink 1s step-start infinite;
+            color: #a5b4fc;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        /* Efecto Glow en selects interactivos */
+        select {
+            transition: all 0.3s ease;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: var(--accent-real) !important;
+            box-shadow: 0 0 8px rgba(0, 245, 212, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-section">
+            <h1>Forest Diffusion & XGBoost Flow Matching</h1>
+            <p>Simulador Interactivo de Generación y Deriva Molecular Pan-Oncológica</p>
+        </div>
+        <div class="badge-colab">Acelerado por GPU</div>
+    </header>
+
+    <div class="main-container">
+        
+        <!-- Panel Izquierdo: Visualización del Espacio de Expresión -->
+        <div class="panel">
+            <div class="canvas-header">
+                <div class="canvas-title">
+                    <span></span> Espacio de Expresión Génica (Gen 1 vs. Gen 2)
+                </div>
+                <div class="legend-row">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: var(--accent-real); box-shadow: 0 0 6px var(--accent-real);"></div>
+                        Pacientes Reales (Célula Tumoral)
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: var(--accent-noise); box-shadow: 0 0 6px var(--accent-noise);"></div>
+                        Ruido Inicial (Límite Superior)
+                    </div>
+                </div>
+            </div>
+            
+            <div class="canvas-container">
+                <canvas id="diffusionCanvas"></canvas>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-t">0 / 50</div>
+                    <div class="stat-label">Paso de Tiempo (t)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-loss">0.850</div>
+                    <div class="stat-label">Pérdida MSE Estimada</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-alpha">0.00</div>
+                    <div class="stat-label">Proporción de Ruido (α)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">1,000</div>
+                    <div class="stat-label">Modelos XGBoost activos</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel Derecho: Controles y Simulador de Árboles XGBoost -->
+        <div class="panel controls-grid">
+            
+            <div>
+                <h3 class="section-title">Controles de Simulación</h3>
+                
+                <div class="control-row" style="margin-top: 1rem;">
+                    <div class="control-label">
+                        <span>Paso de Tiempo de Difusión (t)</span>
+                        <span class="val" id="t-val">0</span>
+                    </div>
+                    <input type="range" id="t-slider" min="0" max="50" value="0">
+                </div>
+
+                <div class="btn-group" style="margin-top: 1.5rem;">
+                    <button class="btn btn-primary" id="btn-play">▶ Generar (Euler)</button>
+                    <button class="btn" id="btn-reset">🔄 Resetear</button>
+                </div>
+                
+                <div style="margin-top: 1rem; display: flex; gap: 1rem;">
+                    <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                        <input type="checkbox" id="chk-vectors" checked style="accent-color: var(--accent-real);">
+                        Ver Campo de Velocidades
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="section-title">Gen Target en Evaluación</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.6rem;">
+                    Selecciona un gen de tu tesis para ver cómo XGBoost entrena sus cortes basados en otras firmas moleculares:
+                </p>
+                <div class="control-row">
+                    <select id="gene-selector" style="width: 100%; background: #111827; border: 1px solid var(--border-color); padding: 0.6rem; border-radius: 8px; font-weight: 600; cursor: pointer; outline: none;">
+                        <option value="VEGFA">🧬 VEGFA (Angiogénesis / Regulación vascular)</option>
+                        <option value="SDHA">🧬 SDHA (Metabolismo mitocondrial / Warburg)</option>
+                        <option value="P4HA2">🧬 P4HA2 (Remodelado de colágeno / Metástasis)</option>
+                        <option value="CDC6">🧬 CDC6 (Control de replicación / Ciclo celular)</option>
+                    </select>
+                </div>
+                <div id="gene-info-card" style="margin-top: 0.8rem; background: rgba(0, 245, 212, 0.05); border: 1px solid rgba(0, 245, 212, 0.15); padding: 0.8rem; border-radius: 8px; font-size: 0.82rem; line-height: 1.4;">
+                    <!-- Se llena dinámicamente con JS -->
+                </div>
+            </div>
+
+            <div>
+                <h3 class="section-title">Árbol de Decisión XGBoost en Acción</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.8rem;">
+                    Visualización de la suma secuencial de árboles (Gradient Boosting aditivo).
+                </p>
+                <div class="control-row" style="margin-bottom: 0.8rem;">
+                    <div class="control-label">
+                        <span>Número de Árboles en la Suma (d)</span>
+                        <span class="val" id="tree-d-val" style="color: var(--accent-tree); font-weight: 800;">1 / 100</span>
+                    </div>
+                    <input type="range" id="tree-d-slider" min="1" max="100" value="1">
+                </div>
+                <div class="tree-visualizer" style="height: 180px;">
+                    <canvas id="treeCanvas"></canvas>
+                </div>
+                <div style="font-size: 0.82rem; color: var(--text-muted); text-align: center; margin-top: 0.4rem; font-family: monospace;">
+                    Fórmula Activa: v<sub>k</sub> = ∑<sub>j=1</sub><sup>d</sup> 0.3 × T<sub>j</sub>(X<sub>t</sub>)
+                </div>
+                <div style="font-size: 0.72rem; color: var(--accent-real); text-align: center; margin-top: 0.2rem; font-family: monospace; font-style: italic;">
+                    💡 Tip: Hover nodes/leaves to project decision limits and filter cells on the left.
+                </div>
+                <div style="margin-top: 0.8rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                    <button class="btn" id="btn-train-tree" style="background: rgba(123, 44, 191, 0.15); border: 1px solid rgba(123, 44, 191, 0.4); color: #d8b4fe; font-size: 0.82rem; padding: 0.5rem 1rem; width: 100%;">
+                        🌱 Simular Crecimiento del Árbol (Split-by-Split)
+                    </button>
+                    <div id="tree-training-logs" style="font-family: monospace; font-size: 0.76rem; background: rgba(0, 0, 0, 0.5); border: 1px solid var(--border-color); padding: 0.6rem; border-radius: 6px; min-height: 72px; color: #a5b4fc; line-height: 1.4; overflow-y: auto; max-height: 100px;">
+                        [Consola] Esperando simulación. Haz clic en el botón de arriba para ver paso a paso cómo XGBoost escanea y divide los genes.
+                    </div>
+                </div>
+            </div>
+
+            <div class="desc-box">
+                <strong>¿Cómo funciona?</strong><br>
+                1. <strong>Fase de Entrenamiento:</strong> El deslizador superior mezcla los datos de los pacientes reales con ruido de forma lineal. En cada paso de tiempo $t$, entrenamos 1,000 XGBoost Regressors independientes (uno por gen).<br>
+                2. <strong>Gradiente Boosting Aditivo:</strong> Usa el control de <em>Árboles en la Suma (d)</em>. Con $d=1$ árbol, la velocidad predicha tiene mucho error. A medida que sumas más árboles (hasta $d=100$), el error residual disminuye y el campo de velocidades se alinea perfectamente con la trayectoria biológica real.<br>
+                3. <strong>Fase de Generación:</strong> Al presionar <em>Generar</em>, partimos de puro ruido ($t=50$) y el integrador numérico de Euler usa las predicciones de velocidad de los árboles sumados para arrastrar las muestras hasta agruparlas en la distribución real.
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        // --- CONFIGURACIÓN DE DATOS ---
+        const NUM_POINTS = 200;
+        const realPoints = [];
+        const noisePoints = [];
+        const currentPoints = [];
+        const vectorDeviations = []; // Errores individuales que se corrigen al sumar más estimadores
+
+        // Generar datos reales agrupados en dos clusters (Tumor vs Sano)
+        for (let i = 0; i < NUM_POINTS; i++) {
+            let x, y;
+            if (i < NUM_POINTS / 2) {
+                // Cluster 1 (Tumoral - Expresión Alta)
+                x = 0.6 + Math.random() * 0.2 + Math.sin(i) * 0.05;
+                y = 0.7 + Math.random() * 0.15 + Math.cos(i) * 0.05;
+            } else {
+                // Cluster 2 (Normal - Expresión Baja)
+                x = 0.25 + Math.random() * 0.2 + Math.cos(i) * 0.06;
+                y = 0.3 + Math.random() * 0.2 + Math.sin(i) * 0.06;
+            }
+            realPoints.push({ x, y });
+            
+            // Generar ruido Gaussiano en el espacio [0, 1]
+            let u1 = Math.random() || 0.0001;
+            let u2 = Math.random() || 0.0001;
+            let nz1 = Math.sqrt(-2.0 * Math.log(u1)) * Math.cos(2.0 * Math.PI * u2);
+            let nz2 = Math.sqrt(-2.0 * Math.log(u1)) * Math.sin(2.0 * Math.PI * u2);
+            
+            noisePoints.push({
+                x: 0.5 + nz1 * 0.15,
+                y: 0.5 + nz2 * 0.15
+            });
+
+            currentPoints.push({ x: 0, y: 0 });
+
+            // Desviación pseudo-aleatoria del primer estimador
+            vectorDeviations.push({
+                dx: (Math.random() - 0.5) * 0.3,
+                dy: (Math.random() - 0.5) * 0.3
+            });
+        }
+
+        // --- MANEJO DE CANVAS PRINCIPAL ---
+        const canvas = document.getElementById('diffusionCanvas');
+        const ctx = canvas.getContext('2d');
+
+        function resizeCanvas() {
+            const container = canvas.parentElement;
+            canvas.width = container.clientWidth * window.devicePixelRatio;
+            canvas.height = container.clientHeight * window.devicePixelRatio;
+            ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        const tSlider = document.getElementById('t-slider');
+        const tVal = document.getElementById('t-val');
+        const statT = document.getElementById('stat-t');
+        const statLoss = document.getElementById('stat-loss');
+        const statAlpha = document.getElementById('stat-alpha');
+        const chkVectors = document.getElementById('chk-vectors');
+        const btnPlay = document.getElementById('btn-play');
+        const btnReset = document.getElementById('btn-reset');
+        
+        // Selector de Árboles Boosting
+        const treeDSlider = document.getElementById('tree-d-slider');
+        const treeDVal = document.getElementById('tree-d-val');
+
+        let isGenerating = false;
+        let animationFrameId = null;
+
+        // --- ACTUALIZAR PUNTOS SEGÚN PASO t ---
+        function updatePoints(t) {
+            const T = 50;
+            const alpha = t / T; // Proporción de ruido
+
+            for (let i = 0; i < NUM_POINTS; i++) {
+                currentPoints[i].x = (1 - alpha) * realPoints[i].x + alpha * noisePoints[i].x;
+                currentPoints[i].y = (1 - alpha) * realPoints[i].y + alpha * noisePoints[i].y;
+            }
+
+            tVal.textContent = t;
+            statT.textContent = `${t} / 50`;
+            statAlpha.textContent = alpha.toFixed(2);
+            
+            // Simular pérdida MSE decreciente a medida que entrenamos más
+            const simulatedLoss = 0.85 * Math.exp(-3 * (1 - alpha));
+            statLoss.textContent = (simulatedLoss + Math.random() * 0.01).toFixed(4);
+        }
+
+        // --- DIBUJAR PUNTOS Y VECTORES ---
+        function draw() {
+            const w = canvas.width / window.devicePixelRatio;
+            const h = canvas.height / window.devicePixelRatio;
+
+            ctx.clearRect(0, 0, w, h);
+
+            // Rejilla de fondo
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.02)';
+            ctx.lineWidth = 1;
+            const gridCells = 10;
+            for (let i = 1; i < gridCells; i++) {
+                ctx.beginPath();
+                ctx.moveTo(i * (w / gridCells), 0);
+                ctx.lineTo(i * (w / gridCells), h);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(0, i * (h / gridCells));
+                ctx.lineTo(w, i * (h / gridCells));
+                ctx.stroke();
+            }
+
+            // Dibujar campo de vectores (velocidades)
+            if (chkVectors.checked) {
+                ctx.strokeStyle = 'rgba(123, 44, 191, 0.18)';
+                ctx.lineWidth = 1.5;
+
+                const d = parseInt(treeDSlider.value);
+                // El error disminuye exponencialmente con el número de estimadores d
+                const errorFactor = Math.pow(0.95, d - 1); 
+
+                for (let i = 0; i < NUM_POINTS; i += 3) {
+                    const startX = currentPoints[i].x * w;
+                    const startY = currentPoints[i].y * h;
+                    
+                    // Velocidad teórica ideal
+                    const vxIdeal = (realPoints[i].x - noisePoints[i].x) * 0.15;
+                    const vyIdeal = (realPoints[i].y - noisePoints[i].y) * 0.15;
+
+                    // Agregar desviación del estimador (error residual)
+                    const vx = vxIdeal + vectorDeviations[i].dx * errorFactor * 0.15;
+                    const vy = vyIdeal + vectorDeviations[i].dy * errorFactor * 0.15;
+
+                    ctx.beginPath();
+                    ctx.moveTo(startX, startY);
+                    ctx.lineTo(startX - vx * w, startY - vy * h);
+                    ctx.stroke();
+                    
+                    // Flecha
+                    ctx.fillStyle = `rgba(123, 44, 191, ${0.15 + (1 - errorFactor) * 0.3})`;
+                    ctx.beginPath();
+                    ctx.arc(startX - vx * w, startY - vy * h, 2, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+
+            // Dibujar muestras actuales
+            for (let i = 0; i < NUM_POINTS; i++) {
+                const px = currentPoints[i].x * w;
+                const py = currentPoints[i].y * h;
+
+                const t = parseInt(tSlider.value);
+                const ratio = t / 50;
+                
+                let opacity = 0.85;
+                let scale = 1.0;
+                
+                // Si hay un nodo hoja hovered, filtramos muestras
+                if (hoveredNode && hoveredNode.type === 'leaf') {
+                    const geneKey = geneSelector.value;
+                    const meta = geneMetadata[geneKey];
+                    const d = parseInt(treeDSlider.value);
+                    const nodeOffset = Math.sin(d) * 0.03;
+                    const alpha = t / 50;
+
+                    const thRoot = meta.coefficients[0] + alpha * 0.1 + nodeOffset;
+                    const thN1 = meta.coefficients[1] + alpha * 0.2 - nodeOffset;
+                    const thN2 = meta.coefficients[2] - alpha * 0.1 + nodeOffset;
+
+                    const passRoot = currentPoints[i].x > thRoot;
+                    const passN1 = currentPoints[i].y > thN1;
+                    const passN2 = currentPoints[i].y > thN2;
+
+                    let matches = false;
+                    if (hoveredNode.id === 'l1' && !passRoot && !passN1) matches = true;
+                    if (hoveredNode.id === 'l2' && !passRoot && passN1) matches = true;
+                    if (hoveredNode.id === 'l3' && passRoot && !passN2) matches = true;
+                    if (hoveredNode.id === 'l4' && passRoot && passN2) matches = true;
+
+                    if (!matches) {
+                        opacity = 0.15;
+                    } else {
+                        opacity = 1.0;
+                        scale = 1.5;
+                    }
+                }
+
+                const hue = 170 - (ratio * 170);
+                ctx.fillStyle = `hsla(${hue}, 100%, 50%, ${opacity})`;
+                ctx.shadowColor = `hsla(${hue}, 100%, 50%, ${opacity * 0.4})`;
+                ctx.shadowBlur = opacity > 0.5 ? 6 : 0;
+
+                ctx.beginPath();
+                ctx.arc(px, py, 4.5 * scale, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            ctx.shadowBlur = 0;
+
+            // Dibujar límites de decisión en 2D si hay un nodo split hovered
+            if (hoveredNode && hoveredNode.type === 'split' && treeTrainingStep === null) {
+                const geneKey = geneSelector.value;
+                const meta = geneMetadata[geneKey];
+                const t = parseInt(tSlider.value);
+                const alpha = t / 50;
+                const d = parseInt(treeDSlider.value);
+                const nodeOffset = Math.sin(d) * 0.03;
+                
+                let threshold, isX;
+                if (hoveredNode.id === 'root') {
+                    threshold = meta.coefficients[0] + alpha * 0.1 + nodeOffset;
+                    isX = true;
+                } else if (hoveredNode.id === 'n1') {
+                    threshold = meta.coefficients[1] + alpha * 0.2 - nodeOffset;
+                    isX = false;
+                } else if (hoveredNode.id === 'n2') {
+                    threshold = meta.coefficients[2] - alpha * 0.1 + nodeOffset;
+                    isX = false;
+                }
+
+                ctx.strokeStyle = 'rgba(0, 245, 212, 0.85)';
+                ctx.lineWidth = 2;
+                ctx.setLineDash([6, 4]);
+                ctx.shadowColor = 'rgba(0, 245, 212, 0.6)';
+                ctx.shadowBlur = 8;
+                
+                ctx.beginPath();
+                if (isX) {
+                    ctx.moveTo(threshold * w, 0);
+                    ctx.lineTo(threshold * w, h);
+                } else {
+                    ctx.moveTo(0, threshold * h);
+                    ctx.lineTo(w, threshold * h);
+                }
+                ctx.stroke();
+                ctx.setLineDash([]);
+                ctx.shadowBlur = 0;
+
+                // Etiqueta del límite
+                ctx.fillStyle = '#00f5d4';
+                ctx.font = '700 9px monospace';
+                ctx.textAlign = isX ? 'left' : 'right';
+                ctx.fillText(`LÍMITE: ${hoveredNode.label}`, isX ? threshold * w + 6 : w - 10, isX ? 18 : threshold * h - 6);
+            }
+        }
+
+        // --- METADATOS DE BIOMARCADORES DE LA TESIS ---
+        const geneMetadata = {
+            VEGFA: {
+                name: "VEGFA (Vascular Endothelial Growth Factor A)",
+                pathway: "Angiogénesis / Formación de Vasos Sanguíneos",
+                desc: "Regulador maestro de la angiogénesis. En el paso <b>t</b>, XGBoost predice su vector de velocidad evaluando cortes en sus genes de matriz extracelular relacionados: <b>P4HA2</b> (hipoxia) y <b>COL4A1</b>.",
+                splits: ["P4HA2", "COL4A1", "SERPINE2"],
+                coefficients: [0.45, 0.55, 0.30]
+            },
+            SDHA: {
+                name: "SDHA (Succinate Dehydrogenase Complex Subunit A)",
+                pathway: "Metabolismo Celular / Efecto Warburg",
+                desc: "Marcador metabólico clave. En el paso <b>t</b>, XGBoost predice su dirección de des-ruidificación evaluando si los niveles ruidosos de <b>VEGFA</b> y <b>CDC6</b> (ciclo celular) indican un fenotipo tumoral activo.",
+                splits: ["VEGFA", "CDC6", "KLF4"],
+                coefficients: [0.50, 0.35, 0.45]
+            },
+            P4HA2: {
+                name: "P4HA2 (Prolyl 4-Hydroxylase Subunit Alpha 2)",
+                pathway: "Remodelado de Colágeno / Metástasis",
+                desc: "Gen de remodelamiento de matriz inducido por hipoxia. En el paso <b>t</b>, el árbol de decisión estima su tasa de cambio evaluando cortes en <b>VEGFA</b> y el inhibidor de estroma <b>SERPINE2</b>.",
+                splits: ["VEGFA", "SERPINE2", "COL4A1"],
+                coefficients: [0.40, 0.60, 0.25]
+            },
+            CDC6: {
+                name: "CDC6 (Cell Division Cycle 6)",
+                pathway: "Replicación del ADN / Ciclo Celular",
+                desc: "Gen controlador clave de la replicación cromosómica. En el paso <b>t</b>, XGBoost estima su velocidad molecular haciendo cortes en el factor de diferenciación <b>KLF4</b> y el gen de energía mitocondrial <b>SDHA</b>.",
+                splits: ["KLF4", "SDHA", "VEGFA"],
+                coefficients: [0.50, 0.30, 0.45]
+            }
+        };
+
+        const geneSelector = document.getElementById('gene-selector');
+        const geneInfoCard = document.getElementById('gene-info-card');
+
+        function updateGeneInfo() {
+            const geneKey = geneSelector.value;
+            const meta = geneMetadata[geneKey];
+            const t = parseInt(tSlider.value);
+            geneInfoCard.innerHTML = `
+                <strong>Vía Biológica:</strong> <span style="color: var(--accent-real);">${meta.pathway}</span><br>
+                <strong>Explicación:</strong> ${meta.desc.replace('<b>t</b>', `<b>t=${t}</b>`)}<br>
+                <span style="color: var(--text-muted); font-size: 0.78rem;">*XGBoost estima esta velocidad basándose en cortes no lineales de los demás genes del Borda.</span>
+            `;
+        }
+
+        // --- MANEJO DE CANVAS DE ÁRBOL DECISIÓN ---
+        const treeCanvas = document.getElementById('treeCanvas');
+        const treeCtx = treeCanvas.getContext('2d');
+        const btnTrainTree = document.getElementById('btn-train-tree');
+        const treeLogs = document.getElementById('tree-training-logs');
+        let treeTrainingStep = null; // null: full tree; 0: initializing; 1: root split; 2: L2 split; 3: leaves
+        let hoveredNode = null; // Nodo del árbol sobre el que está el mouse
+
+        function resizeTreeCanvas() {
+            const container = treeCanvas.parentElement;
+            treeCanvas.width = container.clientWidth * window.devicePixelRatio;
+            treeCanvas.height = container.clientHeight * window.devicePixelRatio;
+            treeCtx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        }
+        window.addEventListener('resize', resizeTreeCanvas);
+        resizeTreeCanvas();
+
+        function logMessage(msg, append = true) {
+            if (append) {
+                treeLogs.innerHTML += `<br>> ${msg}`;
+            } else {
+                treeLogs.innerHTML = `> ${msg}`;
+            }
+            treeLogs.scrollTop = treeLogs.scrollHeight;
+        }
+
+        function drawTree() {
+            const w = treeCanvas.width / window.devicePixelRatio;
+            const h = treeCanvas.height / window.devicePixelRatio;
+            treeCtx.clearRect(0, 0, w, h);
+
+            const t = parseInt(tSlider.value);
+            const alpha = t / 50;
+            const d = parseInt(treeDSlider.value);
+            const geneKey = geneSelector.value;
+            const meta = geneMetadata[geneKey];
+
+            // Título interno del árbol actual
+            treeCtx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+            treeCtx.font = '700 8.5px monospace';
+            treeCtx.textAlign = 'left';
+            treeCtx.fillText(`ÁRBOL T_${d} PARA ESTIMAR v(${geneKey})`, 10, 15);
+
+            // Coordenadas de los nodos (con pequeñas variaciones según el estimador d elegido)
+            const nodeOffset = Math.sin(d) * 0.03;
+            let nodes = [
+                { id: 'root', label: `${meta.splits[0]} > ${(meta.coefficients[0] + alpha * 0.1 + nodeOffset).toFixed(2)}`, x: w / 2, y: 30, type: 'split' },
+                
+                { id: 'n1', label: `${meta.splits[1]} > ${(meta.coefficients[1] + alpha * 0.2 - nodeOffset).toFixed(2)}`, x: w / 4, y: 75, type: 'split' },
+                { id: 'n2', label: `${meta.splits[2]} > ${(meta.coefficients[2] - alpha * 0.1 + nodeOffset).toFixed(2)}`, x: (3 * w) / 4, y: 75, type: 'split' },
+                
+                { id: 'l1', label: `Res: ${(0.3 - alpha * 0.15 + nodeOffset * 2).toFixed(3)}`, x: w / 8, y: 125, type: 'leaf' },
+                { id: 'l2', label: `Res: ${(-0.1 - alpha * 0.05).toFixed(3)}`, x: (3 * w) / 8, y: 125, type: 'leaf' },
+                { id: 'l3', label: `Res: ${(0.05 + alpha * 0.1 - nodeOffset).toFixed(3)}`, x: (5 * w) / 8, y: 125, type: 'leaf' },
+                { id: 'l4', label: `Res: ${(-0.4 + alpha * 0.15 + nodeOffset).toFixed(3)}`, x: (7 * w) / 8, y: 125, type: 'leaf' }
+            ];
+
+            // Renderizado parcial según el paso de entrenamiento
+            if (treeTrainingStep === 0) {
+                // Solo raíz oculta/buscando
+                nodes = [
+                    { id: 'root', label: `¿Escaneando?`, x: w / 2, y: 30, type: 'split', isPulsing: true }
+                ];
+            } else if (treeTrainingStep === 1) {
+                // Raíz revelada, hijos buscando
+                nodes = [
+                    { id: 'root', label: `${meta.splits[0]} > ${(meta.coefficients[0] + alpha * 0.1 + nodeOffset).toFixed(2)}`, x: w / 2, y: 30, type: 'split' },
+                    { id: 'n1', label: `¿Corte?`, x: w / 4, y: 75, type: 'split', isPulsing: true },
+                    { id: 'n2', label: `¿Corte?`, x: (3 * w) / 4, y: 75, type: 'split', isPulsing: true }
+                ];
+            } else if (treeTrainingStep === 2) {
+                // Nivel 2 revelado, hojas buscando
+                nodes = [
+                    { id: 'root', label: `${meta.splits[0]} > ${(meta.coefficients[0] + alpha * 0.1 + nodeOffset).toFixed(2)}`, x: w / 2, y: 30, type: 'split' },
+                    { id: 'n1', label: `${meta.splits[1]} > ${(meta.coefficients[1] + alpha * 0.2 - nodeOffset).toFixed(2)}`, x: w / 4, y: 75, type: 'split' },
+                    { id: 'n2', label: `${meta.splits[2]} > ${(meta.coefficients[2] - alpha * 0.1 + nodeOffset).toFixed(2)}`, x: (3 * w) / 4, y: 75, type: 'split' },
+                    { id: 'l1', label: `?`, x: w / 8, y: 125, type: 'leaf', isPulsing: true },
+                    { id: 'l2', label: `?`, x: (3 * w) / 8, y: 125, type: 'leaf', isPulsing: true },
+                    { id: 'l3', label: `?`, x: (5 * w) / 8, y: 125, type: 'leaf', isPulsing: true },
+                    { id: 'l4', label: `?`, x: (7 * w) / 8, y: 125, type: 'leaf', isPulsing: true }
+                ];
+            }
+
+            // Dibujar ramas (conectores)
+            treeCtx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+            treeCtx.lineWidth = 1.5;
+            
+            treeCtx.beginPath();
+            if (nodes.length > 1) {
+                treeCtx.moveTo(w / 2, 30); treeCtx.lineTo(w / 4, 75);
+                treeCtx.moveTo(w / 2, 30); treeCtx.lineTo((3 * w) / 4, 75);
+            }
+            if (nodes.length > 3) {
+                treeCtx.moveTo(w / 4, 75); treeCtx.lineTo(w / 8, 125);
+                treeCtx.moveTo(w / 4, 75); treeCtx.lineTo((3 * w) / 8, 125);
+                treeCtx.moveTo((3 * w) / 4, 75); treeCtx.lineTo((5 * w) / 8, 125);
+                treeCtx.moveTo((3 * w) / 4, 75); treeCtx.lineTo((7 * w) / 8, 125);
+            }
+            treeCtx.stroke();
+
+            // Dibujar nodos
+            nodes.forEach(n => {
+                const isHovered = hoveredNode && hoveredNode.id === n.id;
+                
+                treeCtx.beginPath();
+                if (n.type === 'split') {
+                    treeCtx.fillStyle = '#111827';
+                    if (isHovered) {
+                        treeCtx.strokeStyle = '#00f5d4';
+                        treeCtx.lineWidth = 1.8;
+                        treeCtx.shadowColor = 'rgba(0, 245, 212, 0.6)';
+                        treeCtx.shadowBlur = 10;
+                    } else if (n.isPulsing) {
+                        treeCtx.strokeStyle = 'rgba(0, 245, 212, 0.8)';
+                        treeCtx.lineWidth = 1.5;
+                        treeCtx.setLineDash([4, 2]);
+                    } else {
+                        treeCtx.strokeStyle = 'rgba(123, 44, 191, 0.5)';
+                        treeCtx.lineWidth = 1.2;
+                        treeCtx.setLineDash([]);
+                    }
+                    
+                    const boxW = 85;
+                    const boxH = 22;
+                    treeCtx.roundRect(n.x - boxW / 2, n.y - boxH / 2, boxW, boxH, 4);
+                    treeCtx.fill();
+                    treeCtx.stroke();
+                    
+                    treeCtx.fillStyle = (n.isPulsing || isHovered) ? '#00f5d4' : '#e9d5ff';
+                    treeCtx.font = '600 8px monospace';
+                    treeCtx.textAlign = 'center';
+                    treeCtx.textBaseline = 'middle';
+                    treeCtx.fillText(n.label, n.x, n.y);
+                } else {
+                    // Leaf nodes show local residuals
+                    treeCtx.fillStyle = '#062f2d';
+                    if (isHovered) {
+                        treeCtx.strokeStyle = '#00f5d4';
+                        treeCtx.lineWidth = 1.8;
+                        treeCtx.shadowColor = 'rgba(0, 245, 212, 0.6)';
+                        treeCtx.shadowBlur = 10;
+                    } else if (n.isPulsing) {
+                        treeCtx.strokeStyle = 'rgba(0, 245, 212, 0.8)';
+                        treeCtx.lineWidth = 1.5;
+                        treeCtx.setLineDash([4, 2]);
+                    } else {
+                        treeCtx.strokeStyle = 'rgba(0, 245, 212, 0.4)';
+                        treeCtx.lineWidth = 1.2;
+                        treeCtx.setLineDash([]);
+                    }
+                    
+                    const boxW = 55;
+                    const boxH = 18;
+                    treeCtx.roundRect(n.x - boxW / 2, n.y - boxH / 2, boxW, boxH, 3);
+                    treeCtx.fill();
+                    treeCtx.stroke();
+
+                    treeCtx.fillStyle = (n.isPulsing || isHovered) ? '#00f5d4' : '#ccfbf1';
+                    treeCtx.font = '700 8px monospace';
+                    treeCtx.textAlign = 'center';
+                    treeCtx.textBaseline = 'middle';
+                    treeCtx.fillText(n.label, n.x, n.y);
+                }
+                
+                // Resetear sombras
+                treeCtx.shadowBlur = 0;
+                treeCtx.setLineDash([]);
+            });
+
+            // Dibujar tooltip informativo si hay un nodo hovered y no está entrenando
+            if (hoveredNode && treeTrainingStep === null) {
+                treeCtx.fillStyle = 'rgba(11, 15, 23, 0.95)';
+                treeCtx.strokeStyle = 'rgba(0, 245, 212, 0.35)';
+                treeCtx.lineWidth = 1;
+                
+                const tooltipY = h - 22;
+                treeCtx.beginPath();
+                treeCtx.roundRect(10, tooltipY, w - 20, 16, 4);
+                treeCtx.fill();
+                treeCtx.stroke();
+                
+                treeCtx.fillStyle = '#00f5d4';
+                treeCtx.font = '600 7.5px monospace';
+                treeCtx.textAlign = 'left';
+                treeCtx.textBaseline = 'middle';
+                treeCtx.fillText(`INFO: ${hoveredNode.details}`, 15, tooltipY + 8);
+            }
+        }
+
+        // --- DETECCIÓN DE HOVER EN EL CANVAS DEL ÁRBOL ---
+        treeCanvas.addEventListener('mousemove', (e) => {
+            if (treeTrainingStep !== null) return;
+            const rect = treeCanvas.getBoundingClientRect();
+            const w = treeCanvas.width / window.devicePixelRatio;
+            const h = treeCanvas.height / window.devicePixelRatio;
+            
+            const mouseX = (e.clientX - rect.left) * (w / rect.width);
+            const mouseY = (e.clientY - rect.top) * (h / rect.height);
+            
+            const t = parseInt(tSlider.value);
+            const alpha = t / 50;
+            const d = parseInt(treeDSlider.value);
+            const geneKey = geneSelector.value;
+            const meta = geneMetadata[geneKey];
+            const nodeOffset = Math.sin(d) * 0.03;
+
+            const nodesList = [
+                { id: 'root', x: w / 2, y: 30, boxW: 85, boxH: 22, type: 'split', label: `${meta.splits[0]} > ${(meta.coefficients[0] + alpha * 0.1 + nodeOffset).toFixed(2)}`, details: `Corte Raíz en ${meta.splits[0]}. Divide la co-expresión principal.` },
+                { id: 'n1', x: w / 4, y: 75, boxW: 85, boxH: 22, type: 'split', label: `${meta.splits[1]} > ${(meta.coefficients[1] + alpha * 0.2 - nodeOffset).toFixed(2)}`, details: `Corte Izquierdo de Nivel 2 en ${meta.splits[1]}. Corrige residuos negativos.` },
+                { id: 'n2', x: (3 * w) / 4, y: 75, boxW: 85, boxH: 22, type: 'split', label: `${meta.splits[2]} > ${(meta.coefficients[2] - alpha * 0.1 + nodeOffset).toFixed(2)}`, details: `Corte Derecho de Nivel 2 en ${meta.splits[2]}. Corrige residuos positivos.` },
+                { id: 'l1', x: w / 8, y: 125, boxW: 55, boxH: 18, type: 'leaf', label: `Res`, details: `Hoja 1: Ambas condiciones bajas. Corrige velocidad de forma positiva.` },
+                { id: 'l2', x: (3 * w) / 8, y: 125, boxW: 55, boxH: 18, type: 'leaf', label: `Res`, details: `Hoja 2: Condición raíz baja, Nivel 2 alta. Ajuste leve.` },
+                { id: 'l3', x: (5 * w) / 8, y: 125, boxW: 55, boxH: 18, type: 'leaf', label: `Res`, details: `Hoja 3: Condición raíz alta, Nivel 2 baja. Ajuste neutro.` },
+                { id: 'l4', x: (7 * w) / 8, y: 125, boxW: 55, boxH: 18, type: 'leaf', label: `Res`, details: `Hoja 4: Ambas condiciones altas. Corrige velocidad de forma negativa.` }
+            ];
+
+            let found = null;
+            for (let n of nodesList) {
+                if (Math.abs(mouseX - n.x) < n.boxW / 2 && Math.abs(mouseY - n.y) < n.boxH / 2) {
+                    found = n;
+                    break;
+                }
+            }
+
+            if (hoveredNode?.id !== found?.id) {
+                hoveredNode = found;
+                drawTree();
+                draw();
+            }
+        });
+
+        treeCanvas.addEventListener('mouseleave', () => {
+            if (hoveredNode !== null) {
+                hoveredNode = null;
+                drawTree();
+                draw();
+            }
+        });
+
+        // --- CONTROLADORES DE EVENTOS ---
+        tSlider.addEventListener('input', (e) => {
+            if (isGenerating) stopGeneration();
+            updatePoints(parseInt(e.target.value));
+            updateGeneInfo();
+            draw();
+            drawTree();
+        });
+
+        treeDSlider.addEventListener('input', (e) => {
+            const val = e.target.value;
+            treeDVal.textContent = `${val} / 100`;
+            draw();
+            drawTree();
+        });
+
+        geneSelector.addEventListener('change', () => {
+            updateGeneInfo();
+            drawTree();
+        });
+
+        // Simular entrenamiento paso a paso
+        btnTrainTree.addEventListener('click', () => {
+            if (isGenerating) stopGeneration();
+            btnTrainTree.disabled = true;
+            btnTrainTree.textContent = "🌱 Creando Árbol...";
+            
+            const geneKey = geneSelector.value;
+            const meta = geneMetadata[geneKey];
+            const tValCur = tSlider.value;
+
+            treeTrainingStep = 0;
+            drawTree();
+            logMessage(`--- INICIANDO ENTRENAMIENTO DEL ÁRBOL T_${parseInt(treeDSlider.value)} [Target: v(${geneKey})] ---`, false);
+            logMessage(`1. Inicializando residuos para N=${NUM_POINTS} muestras en t=${tValCur}.`);
+            logMessage(`   Fórmula de pérdida (MSE): L = 1/2 * (v_pred - v_target)²`);
+            logMessage(`   Cálculo de Gradientes (g_i) y Hessian (h_i) individuales: g_i = v_pred - v_target, h_i = 1.0`);
+
+            setTimeout(() => {
+                treeTrainingStep = 1;
+                drawTree();
+                logMessage(`2. Buscando el corte óptimo (Split) en la raíz analizando 1,000 genes...`);
+                logMessage(`   Evaluando ganancia de estructura (Gain) con regularización L2 (λ=1.0, γ=0.1):`);
+                logMessage(`   Gain = 1/2 * [ (∑g_L)²/(∑h_L + λ) + (∑g_R)²/(∑h_R + λ) - (∑g_All)²/(∑h_All + λ) ] - γ`);
+                logMessage(`   ¡Corte óptimo encontrado en gen ruidoso!`);
+                logMessage(`   Corte: [${meta.splits[0]} > ${(meta.coefficients[0] + (tValCur/50)*0.1).toFixed(2)}] (Gain = 19.42, Reducción de varianza = 15.2%)`);
+
+                setTimeout(() => {
+                    treeTrainingStep = 2;
+                    drawTree();
+                    logMessage(`3. Distribuyendo muestras en ramas hijas:`);
+                    const leftCount = Math.round(NUM_POINTS * 0.58);
+                    const rightCount = NUM_POINTS - leftCount;
+                    logMessage(`   -> Rama Izquierda (${meta.splits[0]} <= threshold): n_L = ${leftCount} muestras.`);
+                    logMessage(`   -> Rama Derecha (${meta.splits[0]} > threshold): n_R = ${rightCount} muestras.`);
+                    logMessage(`4. Evaluando cortes de Nivel 2 en subgrupos para corregir errores residuales:`);
+                    logMessage(`   -> Sub-corte Izq: [${meta.splits[1]} > ${(meta.coefficients[1] + (tValCur/50)*0.2 - Math.sin(parseInt(treeDSlider.value))*0.03).toFixed(2)}] (Gain = 9.81)`);
+                    logMessage(`   -> Sub-corte Der: [${meta.splits[2]} > ${(meta.coefficients[2] - (tValCur/50)*0.1 + Math.sin(parseInt(treeDSlider.value))*0.03).toFixed(2)}] (Gain = 8.15)`);
+
+                    setTimeout(() => {
+                        treeTrainingStep = 3;
+                        drawTree();
+                        logMessage(`5. Calculando pesos de los nodos terminales (Valores Hoja w*):`);
+                        logMessage(`   Fórmula del peso óptimo: w* = - ∑g_leaf / (∑h_leaf + λ)`);
+                        logMessage(`   Valores asignados a las hojas (Residuos ajustados):`);
+                        const nodeOffset = Math.sin(parseInt(treeDSlider.value)) * 0.03;
+                        const alphaVal = tValCur / 50;
+                        logMessage(`   Leaf 1: ${(0.3 - alphaVal * 0.15 + nodeOffset * 2).toFixed(3)} | Leaf 2: ${(-0.1 - alphaVal * 0.05).toFixed(3)} | Leaf 3: ${(0.05 + alphaVal * 0.1 - nodeOffset).toFixed(3)} | Leaf 4: ${(-0.4 + alphaVal * 0.15 + nodeOffset).toFixed(3)}`);
+
+                        setTimeout(() => {
+                            treeTrainingStep = null;
+                            drawTree();
+                            btnTrainTree.disabled = false;
+                            btnTrainTree.textContent = "🌱 Simular Crecimiento del Árbol (Split-by-Split)";
+                            logMessage(`¡Árbol completado exitosamente! Agregado a la suma aditiva del modelo.`);
+                            logMessage(`Fórmula final actualizada: v(${geneKey})_nuevo = v(${geneKey})_prev + 0.3 * T_nuevo(X_t)`);
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        });
+
+        // Euler Integration
+        function startGeneration() {
+            isGenerating = true;
+            btnPlay.textContent = "⏸ Pausar";
+            btnPlay.classList.add('btn-primary');
+
+            let currentT = parseInt(tSlider.value);
+            if (currentT === 0) currentT = 50;
+
+            function step() {
+                if (!isGenerating) return;
+
+                if (currentT > 0) {
+                    currentT--;
+                    tSlider.value = currentT;
+                    updatePoints(currentT);
+                    updateGeneInfo();
+                    draw();
+                    drawTree();
+                    
+                    setTimeout(() => {
+                        animationFrameId = requestAnimationFrame(step);
+                    }, 80);
+                } else {
+                    stopGeneration();
+                }
+            }
+            animationFrameId = requestAnimationFrame(step);
+        }
+
+        function stopGeneration() {
+            isGenerating = false;
+            btnPlay.textContent = "▶ Generar (Euler)";
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
+        }
+
+        btnPlay.addEventListener('click', () => {
+            if (isGenerating) {
+                stopGeneration();
+            } else {
+                startGeneration();
+            }
+        });
+
+        btnReset.addEventListener('click', () => {
+            stopGeneration();
+            tSlider.value = 50;
+            updatePoints(50);
+            updateGeneInfo();
+            draw();
+            drawTree();
+        });
+
+        chkVectors.addEventListener('change', () => {
+            draw();
+        });
+
+        // Inicializar estado
+        tSlider.value = 50;
+        updatePoints(50);
+        updateGeneInfo();
+        draw();
+        drawTree();
+    </script>
+</body>
+</html>

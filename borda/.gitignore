@@ -1,0 +1,13 @@
+# Modelos pesados de Machine Learning (Evitar subir a Git)
+*.joblib
+*.pkl
+*.model
+
+# Datasets pesados y logs redundantes
+REPORTS/documentos_tesis/microarray-data/
+REPORTS/gene_frequency_report.csv
+REPORTS/harmonization_log.txt
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
